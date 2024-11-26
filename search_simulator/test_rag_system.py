@@ -1,5 +1,8 @@
 # test_rag_system.py
 from dotenv import load_dotenv, find_dotenv
+import os
+
+
 load_dotenv(find_dotenv())
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if __name__ == "__main__":

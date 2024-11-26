@@ -5,9 +5,13 @@ import os
 import json
 import random
 import openai
+from dotenv import load_dotenv, find_dotenv
+import os
+
+
+load_dotenv(find_dotenv())
 
 # Set OpenAI API key
-os.environ['OPENAI_API_KEY'] = 'your-api-key-here'
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Define role enum
