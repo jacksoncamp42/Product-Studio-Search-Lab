@@ -1,3 +1,4 @@
 yake
 justext
 openai
+requests
