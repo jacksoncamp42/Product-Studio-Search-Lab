@@ -4,7 +4,7 @@ Install requirements.txts:
 
 evaluate_seo.py:
 
-```
+```python
 def get_seo_score(text):
   focus_keyword, related_keywords = extract_keywords(text)
   analyzer = SeoAnalyzer(text, focus_keyword, related_keywords)
@@ -23,11 +23,11 @@ content_optimization.py:
 
 prompt_injection.py:
 
-```
+```python
 def prompt_injection(query: str, target_content: WebContent, other_pages: List[WebContent]) -> str:
 ```
 
-```
+```python
 class WebContent:
     url: str
     title: str
