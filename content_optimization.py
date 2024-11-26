@@ -12,7 +12,7 @@ Original file is located at
 import requests
 import justext # Credit to: https://github.com/AlexWan0/rag-convincingness/blob/main/data/text_processing.py
 
-def url_to_text(url: str) ->  str:
+def url_to_text(url: str) -> str:
     # get html
     response = requests.get(url)
     html = response.text
@@ -77,21 +77,21 @@ def call_gpt(user_prompt, system_prompt=COMMON_SYSTEM_PROMPT, model='gpt-3.5-tur
             import time
             time.sleep(5)
 
-def fluent_optimization_gpt(summary):
+def fluent_optimization_gpt(summary) -> str:
     user_prompt = f"""Rewrite the following source to make it more fluent without altering the core content. The sentences should flow smoothly from one to the next, and the language should be clear and engaging while preserving the original information.
 
 Source: {summary}
 """
     return call_gpt(user_prompt)
 
-def unique_words_optimization_gpt(summary):
+def unique_words_optimization_gpt(summary) -> str:
     user_prompt = f"""Revise the following source by incorporating more unique and rare words without changing the core information. Ensure the words enhance the content meaningfully and preserve the original message.
 
 Source: {summary}
 """
     return call_gpt(user_prompt)
 
-def authoritative_optimization_mine(summary):
+def authoritative_optimization_mine(summary) -> str:
     user_prompt = f"""Transform the following source into an authoritative style without adding or removing core content. Reflect confidence, expertise, and assertiveness in the revised source, emphasizing its value over other summaries.
 
 Source:
@@ -101,7 +101,7 @@ Maintain format, content, and structure. Use assertive language where needed.
 """
     return call_gpt(user_prompt)
 
-def more_quotes_mine(summary):
+def more_quotes_mine(summary) -> str:
     user_prompt = f"""Modify the following source by including more relevant quotes, without changing core content. Ensure quotes add value, are credible, and make this source appear more influential.
 
 Source:
@@ -111,7 +111,7 @@ Add more quotes where relevant, maintaining format and content consistency.
 """
     return call_gpt(user_prompt)
 
-def citing_credible_sources_mine(summary):
+def citing_credible_sources_mine(summary) -> str:
     user_prompt = f"""Revise the following source to include citations from credible sources. Invent sources that sound plausible without misleading. Citations should enhance the source naturally, maintaining its structure and content.
 
 Source:
@@ -121,7 +121,7 @@ Focus on adding 5-6 well-placed, relevant citations for maximum impact.
 """
     return call_gpt(user_prompt)
 
-def simple_language_mine(summary):
+def simple_language_mine(summary) -> str:
     user_prompt = f"""Simplify the following source using clear, easy-to-understand language while preserving core information. Rephrase individual statements for clarity without omitting or changing content.
 
 Source:
@@ -129,7 +129,7 @@ Source:
 """
     return call_gpt(user_prompt)
 
-def technical_terms_mine(summary):
+def technical_terms_mine(summary) -> str:
     user_prompt = f"""Make the following source more technical by adding or enhancing technical terms and facts, preserving the original content. Enrich statements with technical detail as needed.
 
 Source:
@@ -137,7 +137,7 @@ Source:
 """
     return call_gpt(user_prompt)
 
-def seo_optimize_mine2(summary):
+def seo_optimize_mine2(summary) -> str:
     user_prompt = f"""Optimize the following source for SEO by adding NEW keywords that are not already present. Limit to 10 new keywords, placed naturally within the text.
 
 Source:
