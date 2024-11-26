@@ -5,6 +5,11 @@ Install requirements.txts:
 pip install -r requirements.txt
 ```
 
+To run an experiment:
+```
+python run_experiment.py --url="" --prompt_injection --content_func=fluent_optimization_gpt
+```
+
 ## Relevant Functions
 evaluate_seo.py:
 
