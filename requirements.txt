@@ -1,4 +1,11 @@
 yake
 justext
 openai
+python-dotenv
+faiss-cpu
+langchain
+langchain_community
+langchain_openai
+langchain_core
 requests
+bs4
