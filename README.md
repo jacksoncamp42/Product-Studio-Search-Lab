@@ -5,11 +5,12 @@ Install requirements.txts:
 pip install -r requirements.txt
 ```
 
-create a .env file:
-You need 3 secrets
-OPENAI_API_KEY
-GOOGLE_API_KEY
-GOOGLE_CSE_ID
+Create a .env file:
+```
+OPENAI_API_KEY=
+GOOGLE_API_KEY=
+GOOGLE_CSE_ID=
+```
 
 To run an experiment:
 ```
