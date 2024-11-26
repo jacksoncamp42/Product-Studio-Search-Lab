@@ -10,15 +10,14 @@ Original file is located at
 """
 
 import requests
+import justext # Credit to: https://github.com/AlexWan0/rag-convincingness/blob/main/data/text_processing.py
 
-def get_html(url):
+def url_to_text(url: str) ->  str:
+    # get html
     response = requests.get(url)
-    return response.text
+    html = response.text
 
-# Credit to: https://github.com/AlexWan0/rag-convincingness/blob/main/data/text_processing.py
-import justext
-
-def justext_html_to_text(html: str) ->  str:
+    # get text from html
     try:
         paragraphs = justext.justext(html, justext.get_stoplist("English"))
     except Exception as e:
