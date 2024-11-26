@@ -1,6 +1,9 @@
 # Product-Studio-Search-Lab
 
 Install requirements.txts:
+```
+pip install -r requirements.txt
+```
 
 evaluate_seo.py:
 
