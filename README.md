@@ -24,6 +24,32 @@ def get_seo_score(text):
 ```
 
 content_optimization.py:
+```python
+def url_to_text(url: str) ->  str:
+
+def optimize_text(func_name, text):
+    """
+    Optimize text using the specified optimization function.
+
+    Parameters:
+    - func_name (str): Name of the optimization function to use.
+    - text (str): The text to optimize.
+
+    Available functions:
+    - fluent_optimization_gpt
+    - unique_words_optimization_gpt
+    - authoritative_optimization_mine
+    - more_quotes_mine
+    - citing_credible_sources_mine
+    - simple_language_mine
+    - technical_terms_mine
+    - seo_optimize_mine2
+    """
+    func = globals().get(func_name)
+    if func is None:
+        raise ValueError(f"Function '{func_name}' not found.")
+    return func(text)
+```
 
 prompt_injection.py:
 
