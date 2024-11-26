@@ -13,6 +13,8 @@ import requests
 import justext # Credit to: https://github.com/AlexWan0/rag-convincingness/blob/main/data/text_processing.py
 from dotenv import load_dotenv, find_dotenv
 import os
+
+
 load_dotenv(find_dotenv())
 def url_to_text(url: str) -> str:
     # get html
