@@ -9,3 +9,4 @@ langchain_openai
 langchain_core
 requests
 bs4
+transformers
