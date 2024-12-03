@@ -87,4 +87,4 @@ class RAGSystem:
         return relevant_docs, doc_scores
     
     def embed(self, text):
-        return self.vector_store.embedding_model.embed_query(text)
+        return self.embeddings.embed_query(text)

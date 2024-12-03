@@ -5,6 +5,7 @@ from transformers import pipeline
 from search_simulator.rag_system import RAGSystem
 from content_optimization.content_optimization import optimize_text, url_to_text
 from search_simulator.search_simulator import SearchSimulator 
+from urllib.parse import unquote, urlparse, urlunparse
 
 def evaluate(query, url, response):
     # Similarity Score
@@ -13,16 +14,34 @@ def evaluate(query, url, response):
         vec2 = np.array(vec2)
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
     
-    rag = RAGSystem()
+    rag = searchSimulator.rag_system
     similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
     print("Similarity Score [0,1]:", similarity_score)
 
     # Website Score
     def extract_urls(response):
-        return re.findall(r'(https?://\S+)', response)
+        return re.findall(r'(https?://[^\s\)]+)', response)
+    
+    def are_urls_equal(url1, url2):
+        def normalize_url(url):
+            parsed_url = urlparse(url)
+            normalized_path = unquote(parsed_url.path)
+            normalized_query = unquote(parsed_url.query)
+            return urlunparse(
+                (parsed_url.scheme, parsed_url.netloc, normalized_path, parsed_url.params, normalized_query, parsed_url.fragment)
+            )
+
+        return normalize_url(url1) == normalize_url(url2)
+    
+    def in_urls(url, urls):
+        for u in urls:
+            if are_urls_equal(url, u):
+                return True
+        return False
     
     urls = extract_urls(response)
-    website_score = 1 if url in urls else 0
+    print("Extracted URLs:", urls)
+    website_score = 1 if in_urls(url, urls) else 0
     print("Website Score {0,1}:", website_score)
 
     # Sentiment Score
@@ -66,8 +85,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # accept query and URL from user input - TODO: eventually change to iterate over csv file and write score back to csv file
-    query = input("Enter the query for evaluation: ")
-    url = input("Enter the website URL to optimize: ")
+    # query = input("Enter the query for evaluation: ")
+    # url = input("Enter the website URL to optimize: ")
+
+    query = "What is the best center for reproductive medicine in New York City?"
+    url = "https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation’s-1-fertility-clinic"
 
     text = url_to_text(url)
 
@@ -80,5 +102,6 @@ if __name__ == "__main__":
     # get LLM search response and evaluate
     searchSimulator = SearchSimulator()
     _, _, response = searchSimulator.generate_search_result(query, url, text)
+    print("Search Response:", response)
     score = evaluate(url, query, response)
     print("Score [0,1]:", score)
