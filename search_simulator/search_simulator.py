@@ -46,7 +46,7 @@ class SearchSimulator:
         
         all_contents = []
         found=False
-        sub_results = []
+        sub_results = {}
         for sub_query in sub_queries:
             search_results = self.google_api.search(sub_query, num_results=10)
             sub_results[sub_query] = []
