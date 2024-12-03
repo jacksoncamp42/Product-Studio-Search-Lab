@@ -1,11 +1,21 @@
 
-from .llm_engine import LLMEngine
-from .llm_prompt import LLMPrompt
-from .rag_system import RAGSystem
-from .google_api import GoogleAPI
+from llm_engine import LLMEngine
+from llm_prompt import LLMPrompt
+from rag_system import RAGSystem
+from google_api import GoogleAPI
 from dotenv import load_dotenv, find_dotenv
-from .web_scraper import WebScraper
+from web_scraper import WebScraper
 import os
+
+
+# One of the two versions should work for you. If needed just swap around.
+# from .llm_engine import LLMEngine
+# from .llm_prompt import LLMPrompt
+# from .rag_system import RAGSystem
+# from .google_api import GoogleAPI
+# from dotenv import load_dotenv, find_dotenv
+# from .web_scraper import WebScraper
+# import os
 
 load_dotenv(find_dotenv())
 
@@ -52,8 +62,8 @@ class SearchSimulator:
             sub_results[sub_query] = []
             for result in search_results:
                 url = result.get('link')
-                if url == website_content:
-                    fetched = website_to_optimize
+                if url == website_to_optimize and website_content is not None:
+                    fetched = {'url': website_to_optimize, 'content': website_content}
                     found=True
                 else:
                     fetched = self.web_scraper.fetch_content(url)
@@ -61,7 +71,8 @@ class SearchSimulator:
                     all_contents.append(fetched)
                     sub_results[sub_query].append(url)
         if not found:
-            all_contents.append({'url': website_to_optimize, 'content': website_content})
+            if website_to_optimize is not None and website_content is not None:
+                all_contents.append({'url': website_to_optimize, 'content': website_content})
 
 
         
