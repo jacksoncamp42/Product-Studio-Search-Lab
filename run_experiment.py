@@ -2,22 +2,9 @@ import argparse
 import numpy as np
 import re
 from transformers import pipeline
-from RAGSystem import embed
-from content_optimization import optimize_text, url_to_text
-
-def run_experiment(url, func_name, prompt_injection=None):
-    # Fetch the website text
-    text = url_to_text(url)
-
-    # Apply the specified optimization function if provided
-    if func_name:
-        text = optimize_text(func_name, text)
-
-    # Apply prompt injection if provided
-    if prompt_injection:
-        text = f"{prompt_injection}\n\n{text}"
-
-    return text
+from search_simulator.rag_system import RAGSystem
+from content_optimization.content_optimization import optimize_text, url_to_text
+from search_simulator.search_simulator import SearchSimulator 
 
 def evaluate(query, url, response):
     # Similarity Score
@@ -26,7 +13,8 @@ def evaluate(query, url, response):
         vec2 = np.array(vec2)
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
     
-    similarity_score = cosine_similarity(embed(query), embed(response))
+    rag = RAGSystem()
+    similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
     print("Similarity Score [0,1]:", similarity_score)
 
     # Website Score
@@ -59,7 +47,7 @@ if __name__ == "__main__":
     # parse arguments
     parser = argparse.ArgumentParser(description="Search Lab")
     parser.add_argument(
-        "--content_func",
+        "--func_name",
         type=str,
         default=None,
         help=(
@@ -81,7 +69,16 @@ if __name__ == "__main__":
     query = input("Enter the query for evaluation: ")
     url = input("Enter the website URL to optimize: ")
 
-    text = run_experiment(url, args.func_name, args.prompt_injection)
-    response = # TODO: @Sid, inject the text into the llm response and call llm engine
+    text = url_to_text(url)
+
+    # apply experiment/website fix
+    if args.func_name:
+        text = optimize_text(args.func_name, text)
+
+    # TODO: @Jackson add in prompt injection
+    
+    # get LLM search response and evaluate
+    searchSimulator = SearchSimulator()
+    _, _, response = searchSimulator.generate_search_result(query, url, text)
     score = evaluate(url, query, response)
     print("Score [0,1]:", score)

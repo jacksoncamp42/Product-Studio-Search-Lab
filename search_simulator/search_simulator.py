@@ -1,10 +1,10 @@
 
-from llm_engine import LLMEngine
-from llm_prompt import LLMPrompt
-from rag_system import RAGSystem
-from google_api import GoogleAPI
+from .llm_engine import LLMEngine
+from .llm_prompt import LLMPrompt
+from .rag_system import RAGSystem
+from .google_api import GoogleAPI
 from dotenv import load_dotenv, find_dotenv
-from web_scraper import WebScraper
+from .web_scraper import WebScraper
 import os
 
 load_dotenv(find_dotenv())
