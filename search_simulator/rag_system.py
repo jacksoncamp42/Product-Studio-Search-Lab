@@ -83,3 +83,6 @@ class RAGSystem:
             for doc in docs
         ]
         return relevant_docs
+    
+    def embed(self, text):
+        return self.vector_store.embedding_model.embed_query(text)
