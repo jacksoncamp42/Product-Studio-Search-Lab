@@ -76,13 +76,15 @@ class RAGSystem:
         if self.vector_store is None:
             return []
         # Use similarity_search which handles embedding internally
-        docs = self.vector_store.similarity_search(query, k=top_k)
+        docs = self.vector_store.similarity_search_with_score(query, k=top_k)
         # Return documents with content and URL
         relevant_docs = [
             {'content': doc.page_content, 'url': doc.metadata.get('url', '')}
-            for doc in docs
+            for doc, _ in docs
         ]
-        return relevant_docs
+
+        doc_scores = [(doc.metadata.get('url', ''),  score) for doc,score in docs]
+        return relevant_docs, doc_scores
     
     def embed(self, text):
         return self.vector_store.embedding_model.embed_query(text)

@@ -56,7 +56,7 @@ def main():
         rag_system.add_documents(all_contents)
 
         # Step 5: Retrieve relevant documents
-        relevant_documents = rag_system.retrieve_relevant_documents(user_query)
+        relevant_documents, scores = rag_system.retrieve_relevant_documents(user_query)
         if not relevant_documents:
             print("No relevant documents were found in the RAG system.")
             continue
