@@ -25,7 +25,7 @@ class SearchSimulator:
         self.llm_query_instructions = llm_query_instructions
         self.llm_generation_instructions = llm_generation_instructions
     
-    def generate_search_result(self, user_query, website_to_optimize, website_content=None):
+    def generate_search_result(self, user_query, website_to_optimize=None, website_content=None):
         """ 
         Runs the search simulator on a query, 
         Adds the optimized website to the rag system if it doesnt appear in the search results 
@@ -79,3 +79,6 @@ class SearchSimulator:
 
 
 
+if __name__ == "__main__":
+    search_sim = SearchSimulator()
+    print(search_sim.generate_search_result("What are the parts of medicare?"))
