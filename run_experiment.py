@@ -6,6 +6,7 @@ from search_simulator.rag_system import RAGSystem
 from content_optimization.content_optimization import optimize_text, url_to_text
 from search_simulator.search_simulator import SearchSimulator 
 from urllib.parse import unquote, urlparse, urlunparse
+from prompt_injection.prompt_injection import prompt_injection
 
 def evaluate(query, url, response):
     # Similarity Score
@@ -90,6 +91,7 @@ if __name__ == "__main__":
 
     query = "What is the best center for reproductive medicine in New York City?"
     url = "https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation’s-1-fertility-clinic"
+    title = "Weill Cornell Medicine's Center for Reproductive Medicine"
 
     text = url_to_text(url)
 
@@ -97,7 +99,9 @@ if __name__ == "__main__":
     if args.func_name:
         text = optimize_text(args.func_name, text)
 
-    # TODO: @Jackson add in prompt injection
+    if args.prompt_injection:
+        best_prompt = prompt_injection(query, url, title)
+        text = text + "\n" + best_prompt
     
     # get LLM search response and evaluate
     searchSimulator = SearchSimulator()
