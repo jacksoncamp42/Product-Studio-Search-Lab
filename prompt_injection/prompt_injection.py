@@ -47,9 +47,9 @@ class TreeNode:
 @dataclass
 class ExperimentConfig:
     # Tree of Attacks parameters
-    DEPTH = 1
-    BRANCHING_FACTOR = 1
-    NUM_RUNS = 1
+    DEPTH = 3
+    BRANCHING_FACTOR = 2
+    NUM_RUNS = 2
 
     # OpenAI parameters
     ATTACKER_MODEL = "gpt-3.5-turbo"
