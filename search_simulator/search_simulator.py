@@ -88,7 +88,7 @@ class SearchSimulator:
 
         relevant_documents, scores = self.rag_system.retrieve_relevant_documents(user_query)
 
-        print(len(relevant_documents))
+        # print(len(relevant_documents))
         
         final_answer = self.llm_prompt.generate_response(user_query, relevant_documents, instructions=self.llm_generation_instructions)
 
