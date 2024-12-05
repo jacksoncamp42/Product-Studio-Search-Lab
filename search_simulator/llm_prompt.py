@@ -38,7 +38,9 @@ class LLMPrompt:
             str: A default sub-query generation template as a string.
         """
         return """
-                Generate concise search queries based on the following user query.
+                Generate concise search queries based on the following user question. 
+                Each of these queries should help you gain additional information about the question you are trying to answer. 
+                Limit yourself to 5 queries. 
 
                 User Query:
                 "{user_query}"

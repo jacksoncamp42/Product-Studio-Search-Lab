@@ -8,3 +8,4 @@ search_simulator/__pycache__/rag_system.cpython-312.pyc
 search_simulator/__pycache__/web_scraper.cpython-312.pyc
 .env
 res.txt
+web_scraper.log

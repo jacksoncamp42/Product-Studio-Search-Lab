@@ -6,6 +6,7 @@ from google_api import GoogleAPI
 from dotenv import load_dotenv, find_dotenv
 from web_scraper import WebScraper
 import os
+import tqdm
 
 
 # One of the two versions should work for you. If needed just swap around.
@@ -34,6 +35,9 @@ class SearchSimulator:
         self.web_scraper = WebScraper()
         self.llm_query_instructions = llm_query_instructions
         self.llm_generation_instructions = llm_generation_instructions
+
+    def shutdown(self):
+        self.web_scraper.close()
     
     def generate_search_result(self, user_query, website_to_optimize=None, website_content=None):
         """ 
@@ -60,6 +64,7 @@ class SearchSimulator:
         for sub_query in sub_queries:
             search_results = self.google_api.search(sub_query, num_results=10)
             sub_results[sub_query] = []
+
             for result in search_results:
                 url = result.get('link')
                 if url == website_to_optimize and website_content is not None:
@@ -82,6 +87,8 @@ class SearchSimulator:
         self.rag_system.add_documents(all_contents)
 
         relevant_documents, scores = self.rag_system.retrieve_relevant_documents(user_query)
+
+        print(len(relevant_documents))
         
         final_answer = self.llm_prompt.generate_response(user_query, relevant_documents, instructions=self.llm_generation_instructions)
 
@@ -92,4 +99,5 @@ class SearchSimulator:
 
 if __name__ == "__main__":
     search_sim = SearchSimulator()
-    print(search_sim.generate_search_result("What are the parts of medicare?"))
+    print(search_sim.generate_search_result("What is the best shoe for running?"))
+    search_sim.shutdown()
