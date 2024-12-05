@@ -1,5 +1,4 @@
 import argparse
-from turtle import position
 import numpy as np
 import re
 from search_simulator.rag_system import RAGSystem
