@@ -1,12 +1,13 @@
 import argparse
+from turtle import position
 import numpy as np
 import re
-from transformers import pipeline
 from search_simulator.rag_system import RAGSystem
 from content_optimization.content_optimization import optimize_text, url_to_text
 from search_simulator.search_simulator import SearchSimulator 
 from urllib.parse import unquote, urlparse, urlunparse
 from prompt_injection.prompt_injection import prompt_injection
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 def evaluate(query, url, response):
     # Ranking score
@@ -28,8 +29,8 @@ def evaluate(query, url, response):
             
             if normalized_target in normalized_result_urls:
                 position_score = 1.0 if i == 1 else 1.0 / i
-                print(f"Position in results: {i}")
-                print(f"Position Score [0,1]: {position_score}")
+                # print(f"Position in results: {i}")
+                # print(f"Position Score [0,1]: {position_score}")
                 return position_score
                 
         print("URL not found in results")
@@ -45,7 +46,6 @@ def evaluate(query, url, response):
     
     rag = searchSimulator.rag_system
     similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
-    print("Similarity Score [0,1]:", similarity_score)
 
     # Website Score
     def extract_urls(response):
@@ -70,32 +70,18 @@ def evaluate(query, url, response):
     
     urls = extract_urls(response)
     website_score = 1 if in_urls(url, urls) else 0
-    print("Website Score {0,1}:", website_score)
 
     # Sentiment Score
     def analyze_sentiment(text):
-        sentiment_pipeline = pipeline("sentiment-analysis")
-        result = sentiment_pipeline(text)[0]
-        label = result['label']
-        score = result['score']
-        if label == "NEGATIVE":
-            return 1 - score
-        elif label == "POSITIVE":
-            return score
-        else:
-            raise ValueError("Unexpected sentiment label received")
-        
+        sentiment = SentimentIntensityAnalyzer()
+        return sentiment.polarity_scores(text)['pos']
+    
     sentiment_score = analyze_sentiment(response) if website_score else 0
-    print("Sentiment Score [0,1]:", sentiment_score)
+    
 
     final_score = (position_score + similarity_score + website_score + sentiment_score) / 4
-    print("\nScore breakdown:")
-    print(f"Position: {position_score * 0.25:.2f}")
-    print(f"Similarity: {similarity_score * 0.25:.2f}")
-    print(f"Website: {website_score * 0.25:.2f}")
-    print(f"Sentiment: {sentiment_score * 0.25:.2f}")
 
-    return final_score
+    return position_score, similarity_score, website_score, sentiment_score, final_score
 
 if __name__ == "__main__":
     # parse arguments
@@ -119,10 +105,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # accept query and URL from user input - TODO: eventually change to iterate over csv file and write score back to csv file
-    # query = input("Enter the query for evaluation: ")
-    # url = input("Enter the website URL to optimize: ")
-
+    # TODO: eventually change to iterate over csv file and write score back to csv file
     query = "What is the best center for reproductive medicine in New York City?"
     url = "https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation’s-1-fertility-clinic"
     title = "Weill Cornell Medicine's Center for Reproductive Medicine"
@@ -140,6 +123,16 @@ if __name__ == "__main__":
     # get LLM search response and evaluate
     searchSimulator = SearchSimulator()
     _, _, response = searchSimulator.generate_search_result(query, url, text)
-    print("Search Response:", response)
-    score = evaluate(query, url, response)
-    print("Score [0,1]:", score)
+    position_score, similarity_score, website_score, sentiment_score, final_score = evaluate(query, url, response)
+
+    # print out results!
+    print("Query: \n", query)
+    print("-" * 50)
+    print("Search Response: \n", response)
+    print("-" * 50)
+    print("Position Score [0,1]:", position_score)
+    print("Similarity Score [0,1]:", similarity_score)
+    print("Website Score [0,1]:", website_score)
+    print("Sentiment Score [0,1]:", sentiment_score)
+    print("-" * 50)
+    print("Averaged Score [0,1]:", final_score)

@@ -9,6 +9,5 @@ langchain_openai
 langchain_core
 requests
 bs4
-transformers
 lxml_html_clean
-torch
+vaderSentiment
