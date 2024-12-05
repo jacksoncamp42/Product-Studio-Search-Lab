@@ -9,6 +9,34 @@ from urllib.parse import unquote, urlparse, urlunparse
 from prompt_injection.prompt_injection import prompt_injection
 
 def evaluate(query, url, response):
+    # Ranking score
+    def evaluate_position(response, url):
+        def normalize_url(url):
+            parsed_url = urlparse(url)
+            normalized_path = unquote(parsed_url.path)
+            normalized_query = unquote(parsed_url.query)
+            return urlunparse(
+                (parsed_url.scheme, parsed_url.netloc, normalized_path, parsed_url.params, normalized_query, parsed_url.fragment)
+            )
+        
+        normalized_target = normalize_url(url)
+        results = [r for r in response.split('\n\n') if r.strip()]
+        
+        for i, result in enumerate(results, 1):
+            result_urls = re.findall(r'(https?://[^\s\)]+)', result)
+            normalized_result_urls = [normalize_url(u) for u in result_urls]
+            
+            if normalized_target in normalized_result_urls:
+                position_score = 1.0 if i == 1 else 1.0 / i
+                print(f"Position in results: {i}")
+                print(f"Position Score [0,1]: {position_score}")
+                return position_score
+                
+        print("URL not found in results")
+        return 0.0
+    position_score = evaluate_position(response, url)
+
+    
     # Similarity Score
     def cosine_similarity(vec1, vec2):
         vec1 = np.array(vec1)
@@ -61,7 +89,14 @@ def evaluate(query, url, response):
     sentiment_score = analyze_sentiment(response) if website_score else 0
     print("Sentiment Score [0,1]:", sentiment_score)
 
-    return (similarity_score + website_score + sentiment_score) / 3
+    final_score = (position_score + similarity_score + website_score + sentiment_score) / 4
+    print(f"\nScore breakdown:")
+    print(f"Position: {position_score * 0.25:.2f}")
+    print(f"Similarity: {similarity_score * 0.25:.2f}")
+    print(f"Website: {website_score * 0.25:.2f}")
+    print(f"Sentiment: {sentiment_score * 0.25:.2f}")
+
+    return final_score
 
 if __name__ == "__main__":
     # parse arguments
