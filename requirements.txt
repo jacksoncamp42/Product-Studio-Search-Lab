@@ -11,3 +11,8 @@ requests
 bs4
 lxml_html_clean
 vaderSentiment
+selenium
+logging
+tqdm
+turtle
+
