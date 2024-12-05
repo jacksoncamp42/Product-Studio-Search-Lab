@@ -110,6 +110,26 @@ if __name__ == "__main__":
     title = "Weill Cornell Medicine's Center for Reproductive Medicine"
 
     text = url_to_text(url)
+    searchSimulator = SearchSimulator()
+    
+    def main_helper():
+        # get LLM search response and evaluate
+        _, _, response = searchSimulator.generate_search_result(query, url, text)
+        position_score, similarity_score, website_score, sentiment_score, final_score = evaluate(query, url, response)
+
+        # print out results!
+        print("Query: \n", query)
+        print("-" * 50)
+        print("Search Response: \n", response)
+        print("-" * 50)
+        print("Position Score [0,1]:", position_score)
+        print("Similarity Score [0,1]:", similarity_score)
+        print("Website Score [0,1]:", website_score)
+        print("Sentiment Score [0,1]:", sentiment_score)
+        print("-" * 50)
+        print("Averaged Score [0,1]:", final_score)
+
+    main_helper()
 
     # apply experiment/website fix
     if args.func_name:
@@ -118,20 +138,12 @@ if __name__ == "__main__":
     if args.prompt_injection:
         best_prompt = prompt_injection(query, url, title)
         text = text + "\n" + best_prompt
-    
-    # get LLM search response and evaluate
-    searchSimulator = SearchSimulator()
-    _, _, response = searchSimulator.generate_search_result(query, url, text)
-    position_score, similarity_score, website_score, sentiment_score, final_score = evaluate(query, url, response)
 
-    # print out results!
-    print("Query: \n", query)
-    print("-" * 50)
-    print("Search Response: \n", response)
-    print("-" * 50)
-    print("Position Score [0,1]:", position_score)
-    print("Similarity Score [0,1]:", similarity_score)
-    print("Website Score [0,1]:", website_score)
-    print("Sentiment Score [0,1]:", sentiment_score)
-    print("-" * 50)
-    print("Averaged Score [0,1]:", final_score)
+    if args.func_name or args.prompt_injection:
+        print("-" * 50)
+        if args.func_name:
+            print(f"Applied {args.func_name}")
+        if args.prompt_injection:
+            print("Applied Prompt Injection")
+        print("-" * 50)
+        main_helper()

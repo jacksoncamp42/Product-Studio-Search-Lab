@@ -43,11 +43,16 @@ def insert_text_into_html(html: str, text: str) -> str:
 """## GEO Methods"""
 import os
 import openai
+from openai import OpenAI
 
 # Set OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-COMMON_SYSTEM_PROMPT = """You are an expert ML researcher with a background in SEO and search engines. You are working on novel research ideas for next-generation products. These products involve language models augmented with search engines, designed to answer questions based on sources backed by the search engine. Collectively, these systems are called language engines (generative search engines). Websites must update their SEO techniques to rank higher in the language engine-generated answers using Generative Engine Optimization (GEO) techniques.
+COMMON_SYSTEM_PROMPT = """You are an expert ML researcher with a background in SEO and search engines. 
+You are working on novel research ideas for next-generation products. 
+These products involve language models augmented with search engines, designed to answer questions based 
+on sources backed by the search engine. Collectively, these systems are called language engines (generative search engines). 
+Websites must update their SEO techniques to rank higher in the language engine-generated answers using Generative Engine Optimization (GEO) techniques.
 """
 
 COMMON_USER_PROMPT_START = (
@@ -59,6 +64,7 @@ COMMON_USER_PROMPT_START = (
 )
 
 def call_gpt(user_prompt, system_prompt=COMMON_SYSTEM_PROMPT, model='gpt-3.5-turbo'):
+    client = OpenAI()
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": COMMON_USER_PROMPT_START + user_prompt}
@@ -66,7 +72,7 @@ def call_gpt(user_prompt, system_prompt=COMMON_SYSTEM_PROMPT, model='gpt-3.5-tur
 
     for attempt in range(10):
         try:
-            response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(
                 model=model,
                 messages=messages
             )
