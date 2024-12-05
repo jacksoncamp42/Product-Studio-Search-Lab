@@ -30,6 +30,7 @@ class RAGSystem:
         )
         self.vector_store = None  # Will initialize when adding documents
 
+
     def add_documents(self, texts_with_urls):
         """
         Adds documents to the vector store for retrieval.
@@ -57,7 +58,15 @@ class RAGSystem:
             self.vector_store = FAISS.from_documents(documents, self.embeddings)
         else:
             # Add new documents to the existing vector store
-            self.vector_store.add_documents(documents)
+            try:
+                self.vector_store.add_documents(documents)
+            except:
+                for document in documents:
+                    try:
+                        self.vector_store.add_documents([document])
+                    except: 
+                        pass
+
 
     def retrieve_relevant_documents(self, query, top_k=5):
         """
