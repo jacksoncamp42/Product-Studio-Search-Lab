@@ -69,7 +69,6 @@ def evaluate(query, url, response):
         return False
     
     urls = extract_urls(response)
-    print("Extracted URLs:", urls)
     website_score = 1 if in_urls(url, urls) else 0
     print("Website Score {0,1}:", website_score)
 
@@ -90,7 +89,7 @@ def evaluate(query, url, response):
     print("Sentiment Score [0,1]:", sentiment_score)
 
     final_score = (position_score + similarity_score + website_score + sentiment_score) / 4
-    print(f"\nScore breakdown:")
+    print("\nScore breakdown:")
     print(f"Position: {position_score * 0.25:.2f}")
     print(f"Similarity: {similarity_score * 0.25:.2f}")
     print(f"Website: {website_score * 0.25:.2f}")
@@ -142,5 +141,5 @@ if __name__ == "__main__":
     searchSimulator = SearchSimulator()
     _, _, response = searchSimulator.generate_search_result(query, url, text)
     print("Search Response:", response)
-    score = evaluate(url, query, response)
+    score = evaluate(query, url, response)
     print("Score [0,1]:", score)
