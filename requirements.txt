@@ -14,5 +14,5 @@ vaderSentiment
 selenium
 logging
 tqdm
-
+pandas
 

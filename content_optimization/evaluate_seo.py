@@ -78,14 +78,15 @@ class SeoAnalyzer:
         return self.count_occurrences_in_string(self.focus_keyword, self.optimized_text)
 
 def get_seo_score(text):
-  focus_keyword, related_keywords = extract_keywords(text)
-  analyzer = SeoAnalyzer(text, focus_keyword, related_keywords)
+    focus_keyword, related_keywords = extract_keywords(text)
+    analyzer = SeoAnalyzer(text, focus_keyword, related_keywords)
 
-  # Output results
-  print(f"SEO Score: {analyzer.get_seo_score()}")
-  print(f"Keyword SEO Score: {analyzer.get_keyword_seo_score()}")
-  print(f"Keyword Density: {analyzer.get_keyword_density()}")
-  print("Sub Keyword Density:", ", ".join(
-      f"({sub['keyword']} {sub['density']})" for sub in analyzer.get_sub_keywords_density()
-  ))
-  print(f"Keyword Frequency: {analyzer.get_keyword_frequency()}")
+    # # Output results
+    # print(f"SEO Score: {analyzer.get_seo_score()}")
+    # print(f"Keyword SEO Score: {analyzer.get_keyword_seo_score()}")
+    # print(f"Keyword Density: {analyzer.get_keyword_density()}")
+    # print("Sub Keyword Density:", ", ".join(
+    #     f"({sub['keyword']} {sub['density']})" for sub in analyzer.get_sub_keywords_density()
+    # ))
+    # print(f"Keyword Frequency: {analyzer.get_keyword_frequency()}")
+    return float(analyzer.get_seo_score()) / float(100)

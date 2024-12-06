@@ -3,10 +3,12 @@ import numpy as np
 import re
 from search_simulator.rag_system import RAGSystem
 from content_optimization.content_optimization import optimize_text, url_to_text
+from content_optimization.evaluate_seo import get_seo_score
 from search_simulator.search_simulator import SearchSimulator 
 from urllib.parse import unquote, urlparse, urlunparse
 from prompt_injection.prompt_injection import prompt_injection
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import pandas as pd
 
 def evaluate(query, url, response):
     # Ranking score
@@ -32,8 +34,9 @@ def evaluate(query, url, response):
                 # print(f"Position Score [0,1]: {position_score}")
                 return position_score
                 
-        print("URL not found in results")
+        # URL not found in results
         return 0.0
+
     position_score = evaluate_position(response, url)
 
     
@@ -43,6 +46,7 @@ def evaluate(query, url, response):
         vec2 = np.array(vec2)
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
     
+    searchSimulator = SearchSimulator()
     rag = searchSimulator.rag_system
     similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
 
@@ -77,14 +81,76 @@ def evaluate(query, url, response):
     
     sentiment_score = analyze_sentiment(response) if website_score else 0
     
+    return position_score, similarity_score, website_score, sentiment_score
 
-    final_score = (position_score + similarity_score + website_score + sentiment_score) / 4
+def main(input_csv, output_csv):
+    # Load the CSV file
+    df = pd.read_csv(input_csv)
 
-    return position_score, similarity_score, website_score, sentiment_score, final_score
+    # Prepare SearchSimulator
+    search_simulator = SearchSimulator()
+
+    results = []
+
+    for row_i, row in df.iterrows():
+        print("Processing row ", row_i, "/", len(df))
+        query = row['Query']
+        url = row['URL'] 
+        title = row['Use Case']
+
+        # call main_helper
+        text = url_to_text(url)
+
+        # Get LLM search response and evaluate
+        _, _, response = search_simulator.generate_search_result(query, url, text)
+        position_score, similarity_score, website_score, sentiment_score = evaluate(query, url, response)
+        seo_score = get_seo_score(text)
+        final_score = (seo_score + position_score + similarity_score + website_score + sentiment_score) / 5
+
+        if args.func_name or args.prompt_injection:
+            # apply experiment/website fix
+            if args.func_name:
+                optimized_text = optimize_text(args.func_name, text)
+            elif args.prompt_injection:
+                best_prompt = prompt_injection(query, url, title)
+                optimized_text = text + "\n" + best_prompt
+            else:
+                optimized_text = text
+
+            _, _, response_after = search_simulator.generate_search_result(query, url, optimized_text)
+            position_score_after, similarity_score_after, website_score_after, sentiment_score_after = evaluate(query, url, response_after)
+            seo_score_after = get_seo_score(optimized_text)
+            final_score_after = (seo_score_after + position_score_after + similarity_score_after + website_score_after + sentiment_score_after) / 5
+        else:
+            position_score_after, similarity_score_after, website_score_after, sentiment_score_after, seo_score_after, final_score_after = 0, 0, 0, 0, 0, 0
+        
+        # write the results
+        results.append({
+        "Use Case": row['Use Case'],
+        "Query": query,
+        "URL": url,
+        "SEO Score": seo_score,
+        "Position Score": position_score,
+        "Similarity Score": similarity_score,
+        "Website Score": website_score,
+        "Sentiment Score": sentiment_score,
+        "Final Score": final_score,
+        "SEO Score After": seo_score_after,
+        "Position Score After": position_score_after,
+        "Similarity Score After": similarity_score_after,
+        "Website Score After": website_score_after,
+        "Sentiment Score After": sentiment_score_after,
+        "Final Score After": final_score_after
+        })
+
+    # Save results to CSV
+    output_df = pd.DataFrame(results)
+    output_df.to_csv(output_csv, index=False)
 
 if __name__ == "__main__":
-    # parse arguments
     parser = argparse.ArgumentParser(description="Search Lab")
+    parser.add_argument("--input_csv", type=str, required=True, help="Path to the input CSV file")
+    parser.add_argument("--output_csv", type=str, required=True, help="Path to the output CSV file")
     parser.add_argument(
         "--func_name",
         type=str,
@@ -104,46 +170,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # TODO: eventually change to iterate over csv file and write score back to csv file
-    query = "What is the best center for reproductive medicine in New York City?"
-    url = "https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation’s-1-fertility-clinic"
-    title = "Weill Cornell Medicine's Center for Reproductive Medicine"
-
-    text = url_to_text(url)
-    searchSimulator = SearchSimulator()
-    
-    def main_helper():
-        # get LLM search response and evaluate
-        _, _, response = searchSimulator.generate_search_result(query, url, text)
-        position_score, similarity_score, website_score, sentiment_score, final_score = evaluate(query, url, response)
-
-        # print out results!
-        print("Query: \n", query)
-        print("-" * 50)
-        print("Search Response: \n", response)
-        print("-" * 50)
-        print("Position Score [0,1]:", position_score)
-        print("Similarity Score [0,1]:", similarity_score)
-        print("Website Score [0,1]:", website_score)
-        print("Sentiment Score [0,1]:", sentiment_score)
-        print("-" * 50)
-        print("Averaged Score [0,1]:", final_score)
-
-    main_helper()
-
-    # apply experiment/website fix
-    if args.func_name:
-        text = optimize_text(args.func_name, text)
-
-    if args.prompt_injection:
-        best_prompt = prompt_injection(query, url, title)
-        text = text + "\n" + best_prompt
-
-    if args.func_name or args.prompt_injection:
-        print("-" * 50)
-        if args.func_name:
-            print(f"Applied {args.func_name}")
-        if args.prompt_injection:
-            print("Applied Prompt Injection")
-        print("-" * 50)
-        main_helper()
+    main(args.input_csv, args.output_csv)
