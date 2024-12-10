@@ -100,7 +100,7 @@ def evaluate(query, url, response):
     return position_score, similarity_score, website_score, sentiment_score
 
 
-def get_citation_prompt(self) -> str:
+def get_citation_prompt() -> str:
     return """
     Additional Instructions:
 
@@ -166,7 +166,7 @@ def main(input_csv, output_csv):
             if args.func_name:
                 optimized_text = optimize_text(args.func_name, text)
             elif args.prompt_injection:
-                best_prompt = prompt_injection(query, url)
+                best_prompt = prompt_injection(query, url, title)
                 optimized_text = text + "\n" + best_prompt
             else:
                 optimized_text = text
@@ -248,6 +248,24 @@ if __name__ == "__main__":
         type=str,
         default=None,
         help="Optional text to prepend to the website content for prompt injection.",
+    )
+    parser.add_argument(
+        "--depth",
+        type=int,
+        default=2,
+        help="Depth parameter for tree of attacks (default: 2)",
+    )
+    parser.add_argument(
+        "--branching_factor",
+        type=int,
+        default=2,
+        help="Branching factor for tree of attacks (default: 2)",
+    )
+    parser.add_argument(
+        "--num_runs",
+        type=int,
+        default=2,
+        help="Number of runs for each evaluation (default: 2)",
     )
     args = parser.parse_args()
 
