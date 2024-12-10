@@ -1,8 +1,9 @@
 # rag_system.py
 
-from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores.faiss import FAISS
 from langchain.docstore.document import Document
+from langchain_community.vectorstores.faiss import FAISS
+from langchain_openai import OpenAIEmbeddings
+
 
 class RAGSystem:
     """
@@ -14,12 +15,13 @@ class RAGSystem:
         embeddings: The initialized embedding model instance.
         vector_store: The vector store to hold and retrieve documents for RAG (initially None).
     """
-    def __init__(self, embedding_model='text-embedding-ada-002', api_key=None):
+
+    def __init__(self, embedding_model="text-embedding-ada-002", api_key=None):
         """
         Initializes the RAGSystem with an embedding model and API key.
 
         Args:
-            embedding_model (str, optional): The embedding model to use for text vectorization 
+            embedding_model (str, optional): The embedding model to use for text vectorization
                                              (default is 'text-embedding-ada-002').
             api_key (str, optional): The API key for accessing the embedding model (default is None).
         """
@@ -29,7 +31,6 @@ class RAGSystem:
             model=self.embedding_model, openai_api_key=self.api_key
         )
         self.vector_store = None  # Will initialize when adding documents
-
 
     def add_documents(self, texts_with_urls):
         """
@@ -48,25 +49,42 @@ class RAGSystem:
 
         documents = []
         for item in texts_with_urls:
-            text = item['content']
-            url = item['url']
-            doc = Document(page_content=text, metadata={'url': url})
+            text = item["content"]
+            url = item["url"]
+            doc = Document(page_content=text, metadata={"url": url})
             documents.append(doc)
 
         if self.vector_store is None:
             # Create the vector store from scratch using FAISS
-            self.vector_store = FAISS.from_documents(documents, self.embeddings)
+            try:
+                self.vector_store = FAISS.from_documents(documents, self.embeddings)
+            except:
+                self.vector_store = FAISS.from_documents(
+                    [documents[0]], self.embeddings
+                )
+                for i in range(1, len(documents)):
+                    document = documents[i]
+                    try:
+                        self.vector_store.add_documents([document])
+                    except:
+                        try:
+                            print(document.metadata["url"])
+                            print(texts_with_urls[i]["url"])
+                        except:
+                            print("Printing failing URL method doesnt currently work")
+                        pass
+
         else:
             # Add new documents to the existing vector store
             try:
                 self.vector_store.add_documents(documents)
             except:
+
                 for document in documents:
                     try:
                         self.vector_store.add_documents([document])
-                    except: 
+                    except:
                         pass
-
 
     def retrieve_relevant_documents(self, query, top_k=5):
         """
@@ -88,12 +106,12 @@ class RAGSystem:
         docs = self.vector_store.similarity_search_with_score(query, k=top_k)
         # Return documents with content and URL
         relevant_docs = [
-            {'content': doc.page_content, 'url': doc.metadata.get('url', '')}
+            {"content": doc.page_content, "url": doc.metadata.get("url", "")}
             for doc, _ in docs
         ]
 
-        doc_scores = [(doc.metadata.get('url', ''),  score) for doc,score in docs]
+        doc_scores = [(doc.metadata.get("url", ""), score) for doc, score in docs]
         return relevant_docs, doc_scores
-    
+
     def embed(self, text):
         return self.embeddings.embed_query(text)
