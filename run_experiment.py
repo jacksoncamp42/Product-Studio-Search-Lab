@@ -1,15 +1,18 @@
 import argparse
+import os
 import re
+import time
 from urllib.parse import unquote, urlparse, urlunparse
+
 import numpy as np
+import pandas as pd
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 from content_optimization.content_optimization import optimize_text, url_to_text
 from content_optimization.evaluate_seo import get_seo_score
 from prompt_injection.prompt_injection import prompt_injection
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from search_simulator.search_simulator import SearchSimulator
-import pandas as pd
-import time
-import os
+
 
 # copied over from prompt_injection.py
 def get_citation_prompt() -> str:
@@ -37,6 +40,7 @@ def get_citation_prompt() -> str:
     3. [Top Reproductive Endocrinologists near New York, NY - Castle Connolly](https://www.castleconnolly.com/specialty/reproductive-endocrinology-infertility/new-york-ny)
 
     """
+
 
 def evaluate(query, url, response):
     # Ranking score
@@ -66,7 +70,7 @@ def evaluate(query, url, response):
             if normalized_target in normalized_result_urls:
                 position_score = 1.0 if i == 1 else 1.0 / i
                 return position_score
-                
+
         return 0.0
 
     position_score = evaluate_position(response, url)
@@ -115,37 +119,51 @@ def evaluate(query, url, response):
     # Sentiment Score
     def analyze_sentiment(text):
         sentiment = SentimentIntensityAnalyzer()
-        return sentiment.polarity_scores(text)['pos']
-    
+        return sentiment.polarity_scores(text)["pos"]
+
     # only get relevent parts of text
     def get_relevant_text(text, url):
         # Parse the URL to get domain
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
-        org_name = domain.split('.')[-2]  # Get organization name from domain
-        
+        org_name = domain.split(".")[-2]  # Get organization name from domain
+
         # Split text into paragraphs
-        paragraphs = text.split('\n\n')
-        
+        paragraphs = text.split("\n\n")
+
         relevant_paragraphs = []
         for paragraph in paragraphs:
             # Check if paragraph contains URL or organization name
-            if url in paragraph or domain in paragraph or org_name.lower() in paragraph.lower():
+            if (
+                url in paragraph
+                or domain in paragraph
+                or org_name.lower() in paragraph.lower()
+            ):
                 relevant_paragraphs.append(paragraph)
-                
-        return ' '.join(relevant_paragraphs) if relevant_paragraphs else text
-    
+
+        return " ".join(relevant_paragraphs) if relevant_paragraphs else text
+
     relevant_text = get_relevant_text(response, url)
-    
+
     sentiment_score = analyze_sentiment(relevant_text) if website_score else 0
 
     # SEO Score
     seo_score = get_seo_score(response)
 
     # average
-    final_score = (seo_score + position_score + similarity_score + website_score + sentiment_score) / 5
-    
-    return position_score, similarity_score, website_score, sentiment_score, seo_score, final_score
+    final_score = (
+        seo_score + position_score + similarity_score + website_score + sentiment_score
+    ) / 5
+
+    return (
+        position_score,
+        similarity_score,
+        website_score,
+        sentiment_score,
+        seo_score,
+        final_score,
+    )
+
 
 def main(input_csv, output_csv, start_row, end_row, print_flag):
     # Load the CSV file
@@ -159,7 +177,7 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
 
     # Prepare SearchSimulator
     # search_simulator = SearchSimulator(llm_generation_instructions=get_citation_prompt())
-    search_simulator = SearchSimulator() # trying without citation prompt
+    search_simulator = SearchSimulator()  # trying without citation prompt
 
     results = []
 
@@ -168,14 +186,21 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
             start_time = time.time()
             print(f"Processing row {row_i}/{len(df)}")
 
-            query = row['Query']
-            url = row['URL'] 
-            title = row['Use Case']
+            query = row["Query"]
+            url = row["URL"]
+            title = row["Use Case"]
 
             # Extract text and evaluate
             text = url_to_text(url)
             _, _, response = search_simulator.generate_search_result(query, url, text)
-            position_score, similarity_score, website_score, sentiment_score, seo_score, final_score = evaluate(query, url, response)
+            (
+                position_score,
+                similarity_score,
+                website_score,
+                sentiment_score,
+                seo_score,
+                final_score,
+            ) = evaluate(query, url, response)
 
             # Print response if flag is set
             if print_flag:
@@ -186,58 +211,85 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
                 if args.func_name:
                     optimized_text = optimize_text(args.func_name, text)
                 elif args.prompt_injection:
-                    best_prompt = prompt_injection(query, url, title)
+                    best_prompt = prompt_injection(
+                        query,
+                        url,
+                        title,
+                        depth=args.depth,
+                        branching_factor=args.branching_factor,
+                        num_runs=args.num_runs,
+                    )
                     optimized_text = text + "\n" + best_prompt
                 else:
                     optimized_text = text
 
-                _, _, response_after = search_simulator.generate_search_result(query, url, optimized_text)
-                position_score_after, similarity_score_after, website_score_after, sentiment_score_after, seo_score_after, final_score_after = evaluate(query, url, response_after)
+                _, _, response_after = search_simulator.generate_search_result(
+                    query, url, optimized_text
+                )
+                (
+                    position_score_after,
+                    similarity_score_after,
+                    website_score_after,
+                    sentiment_score_after,
+                    seo_score_after,
+                    final_score_after,
+                ) = evaluate(query, url, response_after)
 
                 # Print optimized response if flag is set
                 if print_flag:
                     print(f"Response after optimization:\n{response_after}")
             else:
-                position_score_after, similarity_score_after, website_score_after, sentiment_score_after, seo_score_after, final_score_after = 0, 0, 0, 0, 0, 0
+                (
+                    position_score_after,
+                    similarity_score_after,
+                    website_score_after,
+                    sentiment_score_after,
+                    seo_score_after,
+                    final_score_after,
+                ) = (0, 0, 0, 0, 0, 0)
 
             # Add to results
-            results.append({
-                "Use Case": row['Use Case'],
-                "Query": query,
-                "URL": url,
-                "SEO Score": seo_score,
-                "SEO Score After": seo_score_after,
-                "Position Score": position_score,
-                "Position Score After": position_score_after,
-                "Similarity Score": similarity_score,
-                "Similarity Score After": similarity_score_after,
-                "Website Score": website_score,
-                "Website Score After": website_score_after,
-                "Sentiment Score": sentiment_score,
-                "Sentiment Score After": sentiment_score_after,
-                "Final Score": final_score,
-                "Final Score After": final_score_after
-            })
+            results.append(
+                {
+                    "Use Case": row["Use Case"],
+                    "Query": query,
+                    "URL": url,
+                    "SEO Score": seo_score,
+                    "SEO Score After": seo_score_after,
+                    "Position Score": position_score,
+                    "Position Score After": position_score_after,
+                    "Similarity Score": similarity_score,
+                    "Similarity Score After": similarity_score_after,
+                    "Website Score": website_score,
+                    "Website Score After": website_score_after,
+                    "Sentiment Score": sentiment_score,
+                    "Sentiment Score After": sentiment_score_after,
+                    "Final Score": final_score,
+                    "Final Score After": final_score_after,
+                }
+            )
 
             # Save responses to files
-            if args.func_name == 'fluent_optimization_gpt':
-                folder_name = 'data_fluency'
-            elif args.func_name == 'authoritative_optimization_mine':
-                folder_name = 'data_authoritative'
-            elif args.func_name == 'prompt_injection':
-                folder_name = 'data_prompt'
+            if args.func_name == "fluent_optimization_gpt":
+                folder_name = "data_fluency"
+            elif args.func_name == "authoritative_optimization_mine":
+                folder_name = "data_authoritative"
+            elif args.func_name == "prompt_injection":
+                folder_name = "data_prompt"
             else:
-                folder_name = 'data_baseline'
+                folder_name = "data_baseline"
             os.makedirs(folder_name, exist_ok=True)
 
             # Write scores before optimization
-            with open(f'{folder_name}/row_{row_i}_before.txt', 'w', encoding='utf-8') as f:
+            with open(
+                f"{folder_name}/row_{row_i}_before.txt", "w", encoding="utf-8"
+            ) as f:
                 f.write(f"Use Case: {row['Use Case']}\n")
                 f.write(f"Query: {query}\n")
                 f.write(f"URL: {url}\n\n")
                 f.write(f"Response: {response}\n\n")
                 f.write(f"Position Score: {position_score}\n")
-                f.write(f"Similarity Score: {similarity_score}\n") 
+                f.write(f"Similarity Score: {similarity_score}\n")
                 f.write(f"Website Score: {website_score}\n")
                 f.write(f"Sentiment Score: {sentiment_score}\n")
                 f.write(f"SEO Score: {seo_score}\n")
@@ -245,7 +297,9 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
 
             # Write scores after optimization if optimization was applied
             if args.func_name or args.prompt_injection:
-                with open(f'{folder_name}/row_{row_i}_after.txt', 'w', encoding='utf-8') as f:
+                with open(
+                    f"{folder_name}/row_{row_i}_after.txt", "w", encoding="utf-8"
+                ) as f:
                     f.write(f"Use Case: {row['Use Case']}\n")
                     f.write(f"Query: {query}\n")
                     f.write(f"URL: {url}\n\n")
@@ -259,7 +313,9 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
 
             # Print output
             elapsed_time = time.time() - start_time
-            print(f"Processed row {row_i} - Final Score: {final_score}, Final Score After: {final_score_after} - Time: {elapsed_time:.2f} seconds")
+            print(
+                f"Processed row {row_i} - Final Score: {final_score}, Final Score After: {final_score_after} - Time: {elapsed_time:.2f} seconds"
+            )
 
         except Exception as e:
             print(f"Error processing row {row_i}: {e}")
@@ -270,10 +326,24 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search Lab")
-    parser.add_argument("--input_csv", type=str, required=True, help="Path to the input CSV file")
-    parser.add_argument("--output_csv", type=str, required=True, help="Path to the output CSV file")
-    parser.add_argument("--start_row", type=int, default=None, help="Row to start processing from (0-indexed)")
-    parser.add_argument("--end_row", type=int, default=None, help="Row to stop processing (0-indexed, exclusive)")
+    parser.add_argument(
+        "--input_csv", type=str, required=True, help="Path to the input CSV file"
+    )
+    parser.add_argument(
+        "--output_csv", type=str, required=True, help="Path to the output CSV file"
+    )
+    parser.add_argument(
+        "--start_row",
+        type=int,
+        default=None,
+        help="Row to start processing from (0-indexed)",
+    )
+    parser.add_argument(
+        "--end_row",
+        type=int,
+        default=None,
+        help="Row to stop processing (0-indexed, exclusive)",
+    )
     parser.add_argument(
         "--func_name",
         type=str,
@@ -312,7 +382,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--print",
         action="store_true",
-        help="Flag to print the response before and after optimization, along with the final scores."
+        help="Flag to print the response before and after optimization, along with the final scores.",
     )
     args = parser.parse_args()
 
