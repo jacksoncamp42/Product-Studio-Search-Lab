@@ -1,0 +1,25 @@
+Use Case: Weill Cornell
+Query: Best doctors in reproductive medicine in the US
+URL: https://weillcornell.org/zrosenwaks
+
+Response_After: If you are looking for the best doctors in reproductive medicine in the United States, two prominent sources highlight top fertility clinics and doctors known for their expertise and success in reproductive medicine:
+
+1. **Center for Reproductive Medicine at Weill Cornell Medicine**: The [Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic) at Weill Cornell Medicine has been ranked as the #1 fertility clinic in the nation by Newsweek. This recognition underscores the exceptional expertise and success of the Center for Reproductive Medicine in the field of reproductive medicine.
+
+2. **US Fertility Network**: [US Fertility](https://www.usfertility.com/newsroom/us-fertility-celebrates-9-ivf-centers-named-to-newsweeks-americas-best-fertility-clinics-2024-list) is a leading fertility network that celebrates multiple IVF centers named to Newsweek's America's Best Fertility Clinics list. This network comprises top fertility clinics with a strong reputation for providing high-quality care and delivering successful outcomes in reproductive medicine.
+
+These sources offer valuable insights into the best doctors and fertility clinics specializing in reproductive medicine across the United States. They are recognized for their expertise, quality of care, and successful outcomes in helping individuals with their reproductive health needs.
+
+For more detailed information on the best doctors and fertility clinics in the United States, you can explore the rankings and details provided by [Newsweek](https://www.newsweek.com/rankings/americas-best-fertility-clinics-2024) for America's Best Fertility Clinics.
+
+**Sources:**
+1. [Center for Reproductive Medicine - Weill Cornell Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+2. [US Fertility - Newsroom](https://www.usfertility.com/newsroom/us-fertility-celebrates-9-ivf-centers-named-to-newsweeks-americas-best-fertility-clinics-2024-list)
+3. [Newsweek - America's Best Fertility Clinics 2024](https://www.newsweek.com/rankings/americas-best-fertility-clinics-2024)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.8976334464718108
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.27952668929436214

@@ -1,0 +1,21 @@
+Use Case: Home Health Care
+Query: Does Medicare cover care at home?
+URL: https://www.medicareinteractive.org/get-answers/medicare-covered-services/home-health-services/eligibility-for-home-health-part-a-or-part-b
+
+Response: Medicare does cover certain types of care at home, specifically home health care services. Home health care under Medicare includes a range of medical services provided in the home for beneficiaries who meet specific criteria. These services are typically provided by a home health agency and may include skilled nursing care, physical therapy, occupational therapy, speech-language pathology services, medical social services, durable medical equipment, and other services.
+
+To qualify for Medicare-covered home health care, beneficiaries must meet certain requirements such as being under a physician's care, meeting homebound criteria, requiring skilled services, being enrolled in both Medicare Part A and Part B, receiving care from a Medicare-certified agency, and having a care plan established by a doctor. The care provided must be intermittent and medically necessary.
+
+It's important to note that Medicare does not cover custodial care or long-term care services provided in the home, such as assistance with activities of daily living (e.g., bathing, dressing, eating) or homemaker services.
+
+For more detailed information on Medicare coverage for home health care services, you can refer to reputable sources like [A Place for Mom](https://www.aplaceformom.com/caregiver-resources/articles/medicare-and-in-home-care) that provide comprehensive insights into Medicare coverage for home care.
+
+**Source:**
+- [A Place for Mom - Does Medicare Cover Home Care and Home Health Care?](https://www.aplaceformom.com/caregiver-resources/articles/medicare-and-in-home-care)
+
+Position Score: 0.0
+Similarity Score: 0.8998561070124007
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.27997122140248015

@@ -1,0 +1,32 @@
+Use Case: Home Health Care
+Query: How do I/you qualify for home health care under Medicare?
+URL: https://www.medicareinteractive.org/get-answers/medicare-covered-services/home-health-services/eligibility-for-home-health-part-a-or-part-b
+
+Response: Qualifying for home health care under Medicare involves meeting specific criteria set by Medicare. To qualify for home health care benefits, you must:
+
+1. **Be Under a Physician's Care**: Your doctor must establish and periodically review a plan of care for you.
+
+2. **Meet Homebound Criteria**: You must be homebound, meaning leaving home is a considerable effort, requiring assistance, or a risk to your health.
+
+3. **Require Skilled Services**: You need intermittent skilled nursing care, physical therapy, speech-language pathology services, or continuing occupational therapy.
+
+4. **Be Enrolled in Medicare Part A and Part B**: To receive home health services, you must be enrolled in both Medicare Part A and Part B.
+
+5. **Receive Care from a Medicare-Certified Agency**: The home health agency providing your care must be Medicare-certified.
+
+6. **Have a Care Plan**: You must have a care plan established and reviewed by a doctor.
+
+If you meet these criteria, Medicare may cover services like part-time skilled nursing care, physical therapy, occupational therapy, speech-language pathology services, medical social services, durable medical equipment, and other services.
+
+For more detailed information on qualifying for Medicare home health care benefits, you can refer to [care.com](https://www.care.com/c/how-to-qualify-for-home-health-care/) and [NCOA](https://www.ncoa.org/article/seven-things-you-should-know-about-medicares-home-health-care-benefit/) sources.
+
+Sources:
+1. [Care.com - Requirements to Qualify for Medicare Home Health Care Explained](https://www.care.com/c/how-to-qualify-for-home-health-care/)
+2. [NCOA - What Home Health Is Covered by Medicare?](https://www.ncoa.org/article/seven-things-you-should-know-about-medicares-home-health-care-benefit/)
+
+Position Score: 0.0
+Similarity Score: 0.9085159719471109
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.28170319438942215

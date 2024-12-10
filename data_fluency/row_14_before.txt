@@ -1,0 +1,19 @@
+Use Case: Weill Cornell
+Query: Weill cornell dermatology center for hidradenitis suppurativa
+URL: https://weillcornell.org/steven-cohen-md-mph
+
+Response: Dr. Steven Cohen is the Assistant Professor of Dermatology and Director of the Weill Cornell Dermatology Center for Hidradenitis Suppurativa. His extensive academic career spans 46 years, involving bench research, acute disease epidemiology, and clinical medicine. Dr. Cohen completed his medical education at the University of Pennsylvania School of Medicine and his internship at the University of California San Francisco General Hospital. He further pursued a joint residency in dermatology and preventive medicine, earning an M.P.H. from Yale.
+
+Throughout his career, Dr. Cohen held positions at various prestigious institutions, including Yale Medical School, Cornell University School of Medicine, Rockefeller University, and Mount Sinai School of Medicine. His expertise and leadership in dermatology have been recognized in his role as the Director of the Weill Cornell Dermatology Center for Hidradenitis Suppurativa.
+
+For more information on Dr. Steven Cohen and the Weill Cornell Dermatology Center for Hidradenitis Suppurativa, you can visit the following URLs:
+1. [About Steven Cohen, MD, MPH](https://weillcornell.org/steven-cohen-md-mph)
+
+These sources provide detailed insights into Dr. Steven Cohen's background, qualifications, and the specialized center for Hidradenitis Suppurativa at Weill Cornell.
+
+Position Score: 0.3333333333333333
+Similarity Score: 0.9120134584442022
+Website Score: 1
+Sentiment Score: 0.0
+SEO Score: 1.0
+Final Score: 0.6490693583555072

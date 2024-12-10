@@ -1,0 +1,48 @@
+Use Case: Cornell
+Query: top universities for tech mba programs in the US east coast
+URL: https://www.johnson.cornell.edu/
+
+Response_After: When looking for the top universities offering Tech MBA programs on the US East Coast, several prestigious institutions are known for their excellence in business education with a focus on technology management. Here are some of the top universities for Tech MBA programs on the US East Coast:
+
+1. **MIT Sloan School of Management**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: MIT Sloan is renowned for its Tech MBA program, emphasizing innovation, entrepreneurship, and technology management. The program provides a strong foundation in business with a focus on cutting-edge technology.
+   - **Website**: [MIT Sloan Tech MBA](https://mitsloan.mit.edu/programs/mba/curriculum/tech-mba)
+
+2. **Columbia Business School**:
+   - **Location**: New York City, New York
+   - **About**: Columbia Business School offers a Tech MBA program known for its strategic approach to technology management and business innovation. The program equips students with skills to navigate the intersection of business and technology.
+   - **Website**: [Columbia Tech MBA Program](https://www8.gsb.columbia.edu/programs/mba/academics/programs/tech)
+
+3. **NYU Stern School of Business**:
+   - **Location**: New York City, New York
+   - **About**: NYU Stern provides a Tech MBA program designed to develop business leaders with a strong technology background. The program focuses on digital innovation, analytics, and strategic decision-making.
+   - **Website**: [NYU Stern Tech MBA](https://www.stern.nyu.edu/programs-admissions/full-time-mba/academics/specializations/technology)
+
+4. **Cornell Tech**:
+   - **Location**: New York City, New York
+   - **About**: Cornell Tech offers an innovative Tech MBA program that combines business education with technology, entrepreneurship, and leadership skills. The program emphasizes hands-on experience and real-world applications.
+   - **Website**: [Cornell Tech MBA](https://www.johnson.cornell.edu/programs/full-time-mba/mba-curriculum/tech-mba)
+
+5. **Harvard Business School**:
+   - **Location**: Boston, Massachusetts
+   - **About**: Harvard Business School provides a Tech MBA program focusing on technology commercialization, digital business transformation, and innovation strategies. The program prepares students for leadership roles in tech-driven industries.
+   - **Website**: [Harvard Tech MBA Program](https://www.hbs.edu/mba/academic-experience/Pages/tech.aspx)
+
+These universities offer exceptional Tech MBA programs on the US East Coast, providing students with a blend of business acumen and technology expertise to thrive in tech-oriented industries.
+
+For more detailed information on each university's Tech MBA program, you can explore their respective websites provided above.
+
+**Sources:**
+- [MIT Sloan Tech MBA](https://mitsloan.mit.edu/programs/mba/curriculum/tech-mba)
+- [Columbia Tech MBA Program](https://www8.gsb.columbia.edu/programs/mba/academics/programs/tech)
+- [NYU Stern Tech MBA](https://www.stern.nyu.edu/programs-admissions/full-time-mba/academics/specializations/technology)
+- [Cornell Tech MBA](https://www.johnson.cornell.edu/programs/full-time-mba/mba-curriculum/tech-mba)
+- [Harvard Tech MBA Program](https://www.hbs.edu/mba/academic-experience/Pages/tech.aspx)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.8978265908310148
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.27956531816620295

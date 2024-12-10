@@ -9,6 +9,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from search_simulator.search_simulator import SearchSimulator
 import pandas as pd
 import time
+import os
 
 # copied over from prompt_injection.py
 def get_citation_prompt() -> str:
@@ -153,6 +154,8 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
     # Filter rows based on start_row and end_row
     if start_row is not None or end_row is not None:
         df = df.iloc[start_row:end_row]
+    elif start_row is not None:
+        df = df.iloc[start_row:]
 
     # Prepare SearchSimulator
     # search_simulator = SearchSimulator(llm_generation_instructions=get_citation_prompt())
@@ -197,26 +200,62 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
             else:
                 position_score_after, similarity_score_after, website_score_after, sentiment_score_after, seo_score_after, final_score_after = 0, 0, 0, 0, 0, 0
 
-            # Save results
+            # Add to results
             results.append({
                 "Use Case": row['Use Case'],
                 "Query": query,
                 "URL": url,
                 "SEO Score": seo_score,
-                "Position Score": position_score,
-                "Similarity Score": similarity_score,
-                "Website Score": website_score,
-                "Sentiment Score": sentiment_score,
-                "Final Score": final_score,
                 "SEO Score After": seo_score_after,
+                "Position Score": position_score,
                 "Position Score After": position_score_after,
+                "Similarity Score": similarity_score,
                 "Similarity Score After": similarity_score_after,
+                "Website Score": website_score,
                 "Website Score After": website_score_after,
+                "Sentiment Score": sentiment_score,
                 "Sentiment Score After": sentiment_score_after,
+                "Final Score": final_score,
                 "Final Score After": final_score_after
             })
 
-            pd.DataFrame(results).to_csv(output_csv, index=False)
+            # Save responses to files
+            if args.func_name == 'fluent_optimization_gpt':
+                folder_name = 'data_fluency'
+            elif args.func_name == 'authoritative_optimization_mine':
+                folder_name = 'data_authoritative'
+            elif args.func_name == 'prompt_injection':
+                folder_name = 'data_prompt'
+            else:
+                folder_name = 'data_baseline'
+            os.makedirs(folder_name, exist_ok=True)
+
+            # Write scores before optimization
+            with open(f'{folder_name}/row_{row_i}_before.txt', 'w', encoding='utf-8') as f:
+                f.write(f"Use Case: {row['Use Case']}\n")
+                f.write(f"Query: {query}\n")
+                f.write(f"URL: {url}\n\n")
+                f.write(f"Response: {response}\n\n")
+                f.write(f"Position Score: {position_score}\n")
+                f.write(f"Similarity Score: {similarity_score}\n") 
+                f.write(f"Website Score: {website_score}\n")
+                f.write(f"Sentiment Score: {sentiment_score}\n")
+                f.write(f"SEO Score: {seo_score}\n")
+                f.write(f"Final Score: {final_score}\n")
+
+            # Write scores after optimization if optimization was applied
+            if args.func_name or args.prompt_injection:
+                with open(f'{folder_name}/row_{row_i}_after.txt', 'w', encoding='utf-8') as f:
+                    f.write(f"Use Case: {row['Use Case']}\n")
+                    f.write(f"Query: {query}\n")
+                    f.write(f"URL: {url}\n\n")
+                    f.write(f"Response_After: {response_after}\n\n")
+                    f.write(f"Position Score_After: {position_score_after}\n")
+                    f.write(f"Similarity Score_After: {similarity_score_after}\n")
+                    f.write(f"Website Score_After: {website_score_after}\n")
+                    f.write(f"Sentiment Score_After: {sentiment_score_after}\n")
+                    f.write(f"SEO Score_After: {seo_score_after}\n")
+                    f.write(f"Final Score_After: {final_score_after}\n")
 
             # Print output
             elapsed_time = time.time() - start_time
@@ -225,13 +264,16 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
         except Exception as e:
             print(f"Error processing row {row_i}: {e}")
 
+    # Save results to CSV
+    pd.DataFrame(results).to_csv(output_csv, index=False)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search Lab")
     parser.add_argument("--input_csv", type=str, required=True, help="Path to the input CSV file")
     parser.add_argument("--output_csv", type=str, required=True, help="Path to the output CSV file")
-    parser.add_argument("--start_row", type=int, default=0, help="Row to start processing from (0-indexed)")
-    parser.add_argument("--end_row", type=int, default=30, help="Row to stop processing (0-indexed, exclusive)")
+    parser.add_argument("--start_row", type=int, default=None, help="Row to start processing from (0-indexed)")
+    parser.add_argument("--end_row", type=int, default=None, help="Row to stop processing (0-indexed, exclusive)")
     parser.add_argument(
         "--func_name",
         type=str,

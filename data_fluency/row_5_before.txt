@@ -1,0 +1,28 @@
+Use Case: Extra Help Basics
+Query: What do I do if I can't afford my drugs?
+URL: https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/overview-of-cost-saving-programs/options-for-those-who-are-having-trouble-affording-drug-costs
+
+Response: If you are unable to afford your medications, there are several options and programs available to help you cover the costs:
+
+1. **Low-Cost or Free Prescriptions**: You can explore resources that offer low-cost or free prescriptions. Websites like [WebMD](https://www.webmd.com/health-insurance/get-medication-free) provide information on how to access affordable medication options.
+
+2. **Medicare Cost-Savings Programs**: If you are a Medicare beneficiary and having trouble affording drug costs, you can check if you qualify for Medicare cost-savings benefit programs. Organizations like the [Medicare Rights Center](https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/overview-of-cost-saving-programs/options-for-those-who-are-having-trouble-affording-drug-costs) in New York can assist you in enrolling in these programs.
+
+3. **Financial Assistance for Specialty Medications**: Some organizations offer financial assistance for specialty medications. You can explore options like those provided by [Optum](https://www.optum.com/en/patient-resources/page.hub5.financial-assistance-specialty-medications.html) to help cover the costs of specific medications.
+
+4. **Extra Help Program**: The Extra Help program is a federal initiative that helps pay for some or most of the out-of-pocket costs of Medicare prescription drug coverage. If your income and assets meet the eligibility criteria, you could qualify for Extra Help. The program is also known as the Part D Low-Income Subsidy (LIS). More details can be found on the [Medicare Interactive](https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/the-extra-helplow-income-subsidy-lis-program/extra-help-basics) website.
+
+By exploring these programs and resources, you may find assistance in affording the medications you need. It's important to reach out to these organizations or programs to determine your eligibility and access the support available to help you manage your drug costs effectively.
+
+Sources:
+- [WebMD - Low-Cost or Free Prescriptions](https://www.webmd.com/health-insurance/get-medication-free)
+- [Medicare Rights Center - Medicare Cost-Savings Programs](https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/overview-of-cost-saving-programs/options-for-those-who-are-having-trouble-affording-drug-costs)
+- [Optum - Financial Assistance for Specialty Medications](https://www.optum.com/en/patient-resources/page.hub5.financial-assistance-specialty-medications.html)
+- [Medicare Interactive - Extra Help Program](https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/the-extra-helplow-income-subsidy-lis-program/extra-help-basics)
+
+Position Score: 0.3333333333333333
+Similarity Score: 0.8567612600422206
+Website Score: 1
+Sentiment Score: 0.17
+SEO Score: 0.5
+Final Score: 0.5720189186751108

@@ -1,0 +1,21 @@
+Use Case: Donut Hole
+Query: What is the coverage gap?
+URL: https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole
+
+Response_After: The "coverage gap" refers to a phase in Medicare Part D prescription drug coverage where beneficiaries may experience a gap in coverage for their medications. This gap occurs after the initial coverage period when the total drug costs, including what the individual and the plan have paid for drugs, reach a certain limit. In 2024, this limit is set at $5,030.
+
+Historically, while in the coverage gap, beneficiaries were responsible for a higher percentage of the cost of their drugs. However, as of 2020, the coverage gap, commonly known as the "donut hole," has closed for all drugs. This means that individuals who enter this phase are now responsible for paying 25% of the cost of their drugs. This change has made drug costs more predictable and reduced the financial burden on beneficiaries during the coverage gap.
+
+Even though the donut hole has closed, beneficiaries may still notice a difference in costs between the initial coverage period and this phase. For example, if a drug's total cost is $100 and the beneficiary paid a $20 copay during the initial coverage period, in the coverage gap, they would be responsible for paying $25 (25% of $100).
+
+To understand more about how the coverage gap, or donut hole, works and how beneficiaries can navigate this phase of Medicare Part D coverage, you can refer to the detailed information provided in the [Medicare Interactive document](https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole).
+
+**Source:**
+- [Medicare Interactive - The Part D Donut Hole](https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole)
+
+Position Score_After: 0.25
+Similarity Score_After: 0.8550520069209205
+Website Score_After: 1
+Sentiment Score_After: 0.057
+SEO Score_After: 0.5
+Final Score_After: 0.532410401384184

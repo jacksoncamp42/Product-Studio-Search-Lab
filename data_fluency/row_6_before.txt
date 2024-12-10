@@ -1,0 +1,21 @@
+Use Case: IRMAA
+Query: Why do I have a higher Part B premium? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-costs/part-b-costs-for-those-with-higher-incomes
+
+Response: If you have a higher Part B premium for Medicare, it is likely due to your income level. The Social Security Administration adjusts the monthly Medicare Part B premium based on income. When you have a higher income, you will pay an additional premium amount known as the "income-related monthly adjustment amount" [Benefits Planner: Retirement | Medicare Premiums | SSA](https://www.ssa.gov/benefits/medicare/medicare-premiums.html).
+
+Medicare Part B helps to pay for doctors' services, outpatient care, medical services like therapy, and some home health care. The adjustment to the Part B premium is mandated by law for higher-income beneficiaries, resulting in an additional premium cost [Benefits Planner: Retirement | Medicare Premiums | SSA](https://www.ssa.gov/benefits/medicare/medicare-premiums.html).
+
+The determination of the higher premium is based on your tax return. Social Security checks your income as reported on your tax return from two years ago to determine if you fall into the category of having a higher premium [Benefits Planner: Retirement | Medicare Premiums | SSA](https://www.ssa.gov/benefits/medicare/medicare-premiums.html).
+
+Therefore, if you have experienced a change in income or disagree with the decision regarding your premium, there are processes in place for you to address this with Social Security [Benefits Planner: Retirement | Medicare Premiums | SSA](https://www.ssa.gov/benefits/medicare/medicare-premiums.html).
+
+**Sources:**
+1. [Benefits Planner: Retirement | Medicare Premiums | SSA](https://www.ssa.gov/benefits/medicare/medicare-premiums.html)
+
+Position Score: 0.0
+Similarity Score: 0.8859024937461397
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.27718049874922795

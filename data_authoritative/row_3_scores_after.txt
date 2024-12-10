@@ -1,0 +1,10 @@
+Use Case: Weill Cornell
+Query: What is the best center for aging in New York City?
+URL: https://weillcornell.org/agingctr
+
+Position Score: 1.0
+Similarity Score: 0.9055596784822023
+Website Score: 1
+Sentiment Score: 0.171
+SEO Score: 0.5
+Final Score: 0.7153119356964404

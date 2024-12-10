@@ -1,0 +1,48 @@
+Use Case: Weill Cornell
+Query: Top medical schools in the US east coast
+URL: https://weill.cornell.edu/
+
+Response_After: When considering the top medical schools on the US East Coast, several prestigious institutions are renowned for their exceptional medical education and research programs. Here are some of the top medical schools on the US East Coast:
+
+1. **Harvard Medical School**:
+   - **Location**: Boston, Massachusetts
+   - **About**: Harvard Medical School is a globally recognized institution known for its excellence in medical education, cutting-edge research, and exceptional clinical care. Affiliated with renowned hospitals like Massachusetts General Hospital and Brigham and Women's Hospital, Harvard Medical School consistently ranks among the best in the nation.
+   - **Website**: [Harvard Medical School](https://hms.harvard.edu/)
+
+2. **Johns Hopkins University School of Medicine**:
+   - **Location**: Baltimore, Maryland
+   - **About**: Johns Hopkins University School of Medicine is highly esteemed for its leadership in medical research and education. Affiliated with the prestigious Johns Hopkins Hospital, this institution is renowned for its innovative research and commitment to healthcare excellence.
+   - **Website**: [Johns Hopkins School of Medicine](https://www.hopkinsmedicine.org/som/)
+
+3. **Columbia University Vagelos College of Physicians and Surgeons**:
+   - **Location**: New York City, New York
+   - **About**: Columbia University's Vagelos College of Physicians and Surgeons is a prestigious institution known for its groundbreaking research and comprehensive clinical training programs. It is a leading medical school on the East Coast.
+   - **Website**: [Columbia Vagelos College of Physicians and Surgeons](https://www.ps.columbia.edu/)
+
+4. **Perelman School of Medicine at the University of Pennsylvania**:
+   - **Location**: Philadelphia, Pennsylvania
+   - **About**: The Perelman School of Medicine at the University of Pennsylvania is recognized for its excellence in medical education and cutting-edge research. Affiliated with the University of Pennsylvania Health System, this school is dedicated to advancing healthcare through innovative practices.
+   - **Website**: [Perelman School of Medicine](https://www.med.upenn.edu/)
+
+5. **Yale School of Medicine**:
+   - **Location**: New Haven, Connecticut
+   - **About**: Yale School of Medicine is a prestigious institution known for its comprehensive medical education programs, impactful research initiatives, and world-class faculty. It is a leading medical school on the US East Coast.
+   - **Website**: [Yale School of Medicine](https://medicine.yale.edu/)
+
+These top medical schools on the US East Coast offer outstanding medical education, research opportunities, and clinical training, making them highly respected institutions for students pursuing careers in healthcare.
+
+For more in-depth information about each medical school, you can visit their respective websites provided above.
+
+**Sources:**
+- [Harvard Medical School](https://hms.harvard.edu/)
+- [Johns Hopkins School of Medicine](https://www.hopkinsmedicine.org/som/)
+- [Columbia Vagelos College of Physicians and Surgeons](https://www.ps.columbia.edu/)
+- [Perelman School of Medicine](https://www.med.upenn.edu/)
+- [Yale School of Medicine](https://medicine.yale.edu/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.904047866497568
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.2808095732995136

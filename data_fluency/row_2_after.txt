@@ -1,0 +1,27 @@
+Use Case: Medicare Parts
+Query: What is Original Medicare? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics
+
+Response_After: Original Medicare is the foundational federal health insurance program in the United States that consists of two main parts: **Medicare Part A (Hospital Insurance)** and **Medicare Part B (Medical Insurance)**.
+
+1. **Medicare Part A**:
+   - [Medicare Part A](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics) covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health care services. Most individuals do not pay a premium for Part A if they or their spouse paid Medicare taxes while working.
+
+2. **Medicare Part B**:
+   - [Medicare Part B](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics) covers services like doctor visits, outpatient care, preventive services, and some home health care services. Part B requires a monthly premium, with costs that can vary based on income.
+
+When you enroll in Original Medicare, the government directly pays for the healthcare services you receive. However, individuals are responsible for cost-sharing elements like premiums, deductibles, and coinsurances. Additionally, being part of Original Medicare makes you eligible to enroll in a Medigap policy, which can help reduce out-of-pocket expenses.
+
+It's important to note that Original Medicare does not include prescription drug coverage (Part D), which individuals may need to sign up for separately through private companies. If individuals want to explore a Medicare Advantage Plan (Part C) or switch between Medicare plans, there are specific enrollment periods for making such changes.
+
+Understanding the components and coverage of Original Medicare is essential for making informed decisions about healthcare coverage, ensuring access to necessary medical services and support.
+
+Sources:
+- [Original Medicare Basics - Medicare Interactive](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics)
+
+Position Score_After: 0.5
+Similarity Score_After: 0.8897315163963917
+Website Score_After: 1
+Sentiment Score_After: 0.214
+SEO Score_After: 0.5
+Final Score_After: 0.6207463032792784

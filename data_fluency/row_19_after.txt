@@ -1,0 +1,22 @@
+Use Case: Weill Cornell
+Query: Weill cornell doctors
+URL: https://weillcornell.org/doctors
+
+Response_After: If you are seeking information about doctors affiliated with Weill Cornell Medicine, you can explore the Weill Cornell Medicine [Directory](https://directory.weill.cornell.edu/) to search for specific doctors, faculty members, researchers, and healthcare professionals associated with the institution. The directory allows you to search by name, department, or affiliation to find detailed profiles of individuals working at Weill Cornell Medicine.
+
+To learn more about notable alumni from the Weill Department of Medicine at Weill Cornell Medicine, you can visit the [Notable Alumni](https://medicine.weill.cornell.edu/notable-alumni) page. This resource provides information about distinguished individuals who have been affiliated with the department and highlights their contributions to the field of medicine.
+
+For a comprehensive overview of Weill Cornell Medicine, its faculty, research initiatives, patient care services, and educational programs, you can visit the official Weill Cornell Medicine [website](https://weill.cornell.edu/). This site offers detailed information about the institution, its global collaborations, clinical care facilities, and the network of healthcare providers associated with Weill Cornell Medicine.
+
+---
+**Sources:**
+- [Weill Cornell Medicine Directory](https://directory.weill.cornell.edu/)
+- [Weill Cornell Medicine Notable Alumni](https://medicine.weill.cornell.edu/notable-alumni)
+- [Official Weill Cornell Medicine Website](https://weill.cornell.edu/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.834666233797393
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.2669332467594786

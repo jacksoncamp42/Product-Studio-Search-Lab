@@ -1,0 +1,19 @@
+Use Case: Weill Cornell
+Query: What is the best center for reproductive medicine in New York City?
+URL: https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic
+
+Response_After: The best center for reproductive medicine in New York City is the [Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic) at Weill Cornell Medicine. This esteemed center has been ranked as the nation's top fertility clinic by Newsweek's America's Best Fertility Clinics 2023 survey. Led by Dr. Zev Rosenwaks, the Center for Reproductive Medicine specializes in providing comprehensive care, state-of-the-art fertility tests, and procedures. Notably, the center has a significant track record, with over 31,500 babies born as a result of in vitro fertilization (IVF) procedures performed at the center since its establishment in 1988.
+
+The Center for Reproductive Medicine is known for its expertise in assisting patients with complex medical backgrounds in achieving parenthood. They offer advanced fertility treatments, ensuring personalized and comprehensive care for each individual. Dr. Rosenwaks and his team pride themselves on helping aspiring parents realize their dreams, even after unsuccessful attempts elsewhere.
+
+With a focus on individualized care, cutting-edge technology, and a strong history of successful outcomes, the Center for Reproductive Medicine at Weill Cornell Medicine is a top choice for individuals seeking fertility treatment in New York City.
+
+Sources:
+- [Newsweek ranks Center for Reproductive Medicine nation’s #1 fertility clinic](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+
+Position Score_After: 1.0
+Similarity Score_After: 0.9247278548055133
+Website Score_After: 1
+Sentiment Score_After: 0.176
+SEO Score_After: 0.5
+Final Score_After: 0.7201455709611027

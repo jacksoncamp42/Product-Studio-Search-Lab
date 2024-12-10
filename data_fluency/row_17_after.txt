@@ -1,0 +1,48 @@
+Use Case: Cornell
+Query: Top universities for computer science program in the US east coast
+URL: https://www.cs.cornell.edu/
+
+Response_After: When considering the top universities for computer science programs on the US East Coast, several prestigious institutions are known for their excellence in computer science education, research, and innovation. Here are some of the top universities offering outstanding computer science programs on the US East Coast:
+
+1. **Massachusetts Institute of Technology (MIT)**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: MIT is renowned for its strong computer science program, cutting-edge research, and technological innovation. The university consistently ranks among the best in the world for computer science.
+   - **Website**: [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/)
+
+2. **Harvard University**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: Harvard offers a rigorous computer science program with a focus on research and interdisciplinary collaboration. The university provides a comprehensive education in computer science.
+   - **Website**: [Harvard School of Engineering and Applied Sciences](https://www.seas.harvard.edu/)
+
+3. **Carnegie Mellon University**:
+   - **Location**: Pittsburgh, Pennsylvania
+   - **About**: Carnegie Mellon is known for its strong emphasis on computer science and artificial intelligence. The university's School of Computer Science is a leader in the field.
+   - **Website**: [Carnegie Mellon School of Computer Science](https://www.cs.cmu.edu/)
+
+4. **Princeton University**:
+   - **Location**: Princeton, New Jersey
+   - **About**: Princeton offers a top-tier computer science program with a focus on theoretical foundations and practical applications. The university's computer science department is known for its research contributions.
+   - **Website**: [Princeton Computer Science Department](https://www.cs.princeton.edu/)
+
+5. **University of Pennsylvania**:
+   - **Location**: Philadelphia, Pennsylvania
+   - **About**: The University of Pennsylvania provides a comprehensive computer science program with opportunities for research and innovation. The university's computer science department is known for its interdisciplinary approach.
+   - **Website**: [UPenn Computer and Information Science Department](https://www.cis.upenn.edu/)
+
+These universities on the US East Coast offer top-quality computer science programs, research opportunities, and a strong foundation in technological advancements, making them highly respected institutions for students pursuing computer science education.
+
+For more detailed information on each university's computer science program, you can explore their respective websites provided above.
+
+**Sources:**
+- [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/)
+- [Harvard School of Engineering and Applied Sciences](https://www.seas.harvard.edu/)
+- [Carnegie Mellon School of Computer Science](https://www.cs.cmu.edu/)
+- [Princeton Computer Science Department](https://www.cs.princeton.edu/)
+- [UPenn Computer and Information Science Department](https://www.cis.upenn.edu/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.9102924046327138
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.28205848092654273

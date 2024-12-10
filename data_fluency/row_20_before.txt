@@ -1,0 +1,48 @@
+Use Case: Cornell
+Query: top universities for master programs in the US east coast
+URL: https://www.cornell.edu/
+
+Response: When seeking the top universities for master's programs on the US East Coast, several prestigious institutions are known for their excellence in graduate education across various disciplines. Here are some of the top universities offering outstanding master's programs on the US East Coast:
+
+1. **Harvard University**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: Harvard University offers a wide range of master's programs across fields like business, education, law, public health, and more. With a reputation for academic excellence and research innovation, Harvard provides comprehensive graduate education.
+   - **Website**: [Harvard University Graduate School of Arts and Sciences](https://gsas.harvard.edu/)
+
+2. **Massachusetts Institute of Technology (MIT)**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: MIT is renowned for its graduate programs in engineering, science, technology, and management. The university's master's programs emphasize cutting-edge research and interdisciplinary collaboration.
+   - **Website**: [MIT Graduate Admissions](https://gradadmissions.mit.edu/)
+
+3. **Columbia University**:
+   - **Location**: New York City, New York
+   - **About**: Columbia University offers diverse master's programs in areas such as business, engineering, public policy, and the arts. Known for its global perspective and academic rigor, Columbia provides students with a rich educational experience.
+   - **Website**: [Columbia University Graduate School of Arts and Sciences](https://gsas.columbia.edu/)
+
+4. **University of Pennsylvania**:
+   - **Location**: Philadelphia, Pennsylvania
+   - **About**: The University of Pennsylvania provides master's programs in fields like business, education, social work, and more. With a focus on interdisciplinary studies and research, Penn offers students opportunities for academic growth and professional development.
+   - **Website**: [University of Pennsylvania Graduate School](https://gradadm.seas.upenn.edu/)
+
+5. **Yale University**:
+   - **Location**: New Haven, Connecticut
+   - **About**: Yale University offers a range of master's programs in areas such as public health, environmental management, nursing, and more. With a commitment to excellence and innovation, Yale provides students with a supportive academic environment.
+   - **Website**: [Yale Graduate School of Arts and Sciences](https://gsas.yale.edu/)
+
+These universities on the US East Coast are esteemed for their master's programs, research opportunities, and academic resources, making them top choices for students pursuing advanced degrees in various fields.
+
+For more detailed information on each university's master's programs, you can explore their respective graduate school websites provided above.
+
+**Sources:**
+- [Harvard University Graduate School of Arts and Sciences](https://gsas.harvard.edu/)
+- [MIT Graduate Admissions](https://gradadmissions.mit.edu/)
+- [Columbia University Graduate School of Arts and Sciences](https://gsas.columbia.edu/)
+- [University of Pennsylvania Graduate School](https://gradadm.seas.upenn.edu/)
+- [Yale Graduate School of Arts and Sciences](https://gsas.yale.edu/)
+
+Position Score: 0.0
+Similarity Score: 0.893188244014805
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 1.0
+Final Score: 0.378637648802961

@@ -1,0 +1,19 @@
+Use Case: Weill Cornell
+Query: What is the best ophthalmology center in New York?
+URL: https://weillcornell.org/wcm-ophthalmology
+
+Response: In New York, one of the top ophthalmology centers is [VRMNY](https://www.vrmny.com/). VRMNY stands out as a premier facility with expert ophthalmologists and eye doctors in New York City. They are known for having the most trained and awarded eye doctors in the city, conveniently located in Manhattan, Brooklyn, and Westchester. VRMNY boasts internationally renowned ophthalmologists and retina specialists who have received training at prestigious academic institutions worldwide. These eye doctors are dedicated to research and the advancement of new diagnostic and treatment methods in the field of ophthalmology.
+
+If you are looking for top-rated ophthalmologists and retina specialists in New York, VRMNY is a leading choice known for its expertise, quality of care, and reputation for excellence in eye care.
+
+For more detailed information about VRMNY and their expert eye doctors, you can visit their website at [VRMNY](https://www.vrmny.com/).
+
+**Source:**
+- [VRMNY - Best Ophthalmologists in New York City](https://www.vrmny.com/)
+
+Position Score: 0.0
+Similarity Score: 0.877155443528733
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2754310887057466

@@ -1,0 +1,30 @@
+Use Case: Medicare Parts
+Query: What are the parts of Medicare?
+URL: https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare
+
+Response: Medicare is a federal health insurance program that provides coverage for certain individuals in the United States. The program consists of different parts that cover various aspects of healthcare. The primary parts of Medicare are:
+
+1. **Medicare Part A (Hospital Insurance)**:
+   - [Medicare Part A](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health care services. Most people do not pay a premium for Part A if they or their spouse paid Medicare taxes while working.
+
+2. **Medicare Part B (Medical Insurance)**:
+   - [Medicare Part B](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) covers doctor visits, outpatient care, preventive services, and some home health care services. Part B requires a monthly premium, and the cost can vary based on income.
+
+3. **Medicare Part C (Medicare Advantage)**:
+   - [Medicare Part C](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) is an alternative way to receive Medicare benefits through private insurance companies approved by Medicare. These plans typically include coverage for Parts A and B and often additional benefits like dental, vision, and prescription drug coverage.
+
+4. **Medicare Part D (Prescription Drug Coverage)**:
+   - [Medicare Part D](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) is a standalone prescription drug coverage that can be added to Original Medicare, some Medicare Cost Plans, and Medicare Private Fee-for-Service plans. Part D plans are offered by private insurance companies approved by Medicare and help with the cost of prescription medications.
+
+These parts together make up the foundation of Medicare coverage, providing a range of healthcare services and options for eligible individuals. Understanding the parts of Medicare can help individuals make informed decisions about their healthcare coverage.
+
+Sources:
+1. [Medicare Parts A, B, C, D explained - Medicare Interactive](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare)
+2. [What are the parts of Medicare? Part A, B, C, D explained - HealthPartners Blog](https://www.healthpartners.com/blog/parts-of-medicare-explained/)
+
+Position Score: 0.0
+Similarity Score: 0.8906017383172686
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2781203476634537

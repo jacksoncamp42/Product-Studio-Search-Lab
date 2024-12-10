@@ -1,0 +1,21 @@
+Use Case: Weill Cornell
+Query: Best doctors in reproductive medicine in the US
+URL: https://weillcornell.org/zrosenwaks
+
+Response: If you're looking for top doctors in reproductive medicine in the United States, renowned fertility clinics like the [Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic) at Weill Cornell Medicine are excellent choices. The Center for Reproductive Medicine has been ranked as the #1 fertility clinic in the nation by Newsweek, highlighting its exceptional expertise and success in reproductive medicine.
+
+Additionally, [US Fertility](https://www.usfertility.com/newsroom/us-fertility-celebrates-9-ivf-centers-named-to-newsweeks-americas-best-fertility-clinics-2024-list), a leading fertility network, celebrates multiple IVF centers named to Newsweek's America's Best Fertility Clinics list. This network comprises top fertility clinics with a strong reputation for providing high-quality care and successful outcomes in reproductive medicine.
+
+For more information on the best doctors and fertility clinics in the United States, you can explore the rankings and details provided by [Newsweek](https://www.newsweek.com/rankings/americas-best-fertility-clinics-2024) for America's Best Fertility Clinics. These resources offer insights into the top fertility clinics and doctors specializing in reproductive medicine across the country.
+
+**Sources:**
+1. [Center for Reproductive Medicine - Weill Cornell Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+2. [US Fertility - Newsroom](https://www.usfertility.com/newsroom/us-fertility-celebrates-9-ivf-centers-named-to-newsweeks-americas-best-fertility-clinics-2024-list)
+3. [Newsweek - America's Best Fertility Clinics 2024](https://www.newsweek.com/rankings/americas-best-fertility-clinics-2024)
+
+Position Score: 0.0
+Similarity Score: 0.8928226204420202
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.27856452408840404

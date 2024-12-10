@@ -1,0 +1,17 @@
+Use Case: Weill Cornell
+Query: What is the best weight loss center in New York?
+URL: https://weillcornell.org/comprehensive-weight-control-center
+
+Response_After: In New York, one of the top weight loss centers is [NYC Weightloss Solutions](https://www.yelp.com/biz/nyc-weightloss-solutions-new-york). NYC Weightloss Solutions is highly regarded for its services in nutrition, weight loss, and health coaching. This center has received positive reviews and is recognized for its expertise in helping individuals achieve their weight loss goals through personalized programs and professional guidance. Located in New York City at 120 E 56th St, NYC Weightloss Solutions offers services such as nutrition counseling, weight loss programs, and health coaching to support individuals on their weight loss journey.
+
+For more detailed information about NYC Weightloss Solutions and the services they offer, you can visit their [Yelp page](https://www.yelp.com/biz/nyc-weightloss-solutions-new-york).
+
+**Source:**
+- [Yelp - NYC Weightloss Solutions](https://www.yelp.com/biz/nyc-weightloss-solutions-new-york)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.8770576663149653
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.27541153326299306

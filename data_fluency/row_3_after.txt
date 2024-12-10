@@ -1,0 +1,21 @@
+Use Case: Weill Cornell
+Query: What is the best center for aging in New York City?
+URL: https://weillcornell.org/agingctr
+
+Response_After: The best center for aging in New York City is the [Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic) at Weill Cornell Medicine. However, it's important to note that this center specializes in reproductive medicine and fertility treatments rather than services focused on aging. 
+
+For information on centers that cater to aging and older adults in New York City, the [New York City Department for the Aging](https://www.nyc.gov/site/dfta/services/older-adult-center.page) offers a network of Older Adult Centers (OACs) and affiliated sites across the five boroughs. These centers provide various resources and services such as healthy meals, activities, classes, fitness programs, and more to promote well-being and social engagement among aging individuals.
+
+If you are looking for comprehensive services and programs specifically tailored to the aging population in New York City, exploring the resources provided by the New York City Department for the Aging, including the Older Adult Centers, would be beneficial. For personalized information and referrals related to aging services, you can contact the [Aging Connect](https://www.nyc.gov/site/dfta/services/find-help.page) helpline at 212-AGING-NYC (212-244-6469). Aging Connect serves as the information and referral contact center for the New York City Department for the Aging, assisting older adults and their families in accessing the necessary support and resources.
+
+Sources:
+- [Newsweek ranks Center for Reproductive Medicine nation’s #1 fertility clinic](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+- [Older Adult Centers - NYC Department for the Aging](https://www.nyc.gov/site/dfta/services/older-adult-center.page)
+- [Aging Connect - NYC Department for the Aging](https://www.nyc.gov/site/dfta/services/find-help.page)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.9060909072600242
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.28121818145200483

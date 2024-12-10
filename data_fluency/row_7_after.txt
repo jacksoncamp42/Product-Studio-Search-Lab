@@ -1,0 +1,37 @@
+Use Case: Home Health Care
+Query: How do I/you qualify for home health care under Medicare?
+URL: https://www.medicareinteractive.org/get-answers/medicare-covered-services/home-health-services/eligibility-for-home-health-part-a-or-part-b
+
+Response_After: Qualifying for home health care under Medicare involves meeting specific criteria set by Medicare. To be eligible for Medicare-covered home health care services, you must meet the following requirements:
+
+1. **Under a Physician's Care**: You need to be under the care of a doctor who establishes and periodically reviews a plan of care for you.
+
+2. **Homebound Criteria**: You must meet the homebound criteria, which means that leaving home requires a considerable effort, assistance, or poses a risk to your health.
+
+3. **Skilled Services Requirement**: You should require intermittent skilled nursing care, physical therapy, speech-language pathology services, or continuing occupational therapy.
+
+4. **Enrolled in Medicare Part A and Part B**: To receive home health services, you must be enrolled in both Medicare Part A and Part B.
+
+5. **Receive Care from a Medicare-Certified Agency**: The home health agency providing your care must be certified by Medicare.
+
+6. **Have a Care Plan**: A doctor must establish and review a care plan tailored to your specific needs.
+
+If you meet these criteria, Medicare may cover part-time skilled nursing care, physical therapy, occupational therapy, speech-language pathology services, medical social services, durable medical equipment, and other services.
+
+For more detailed information on qualifying for Medicare home health care benefits, you can refer to the following sources:
+
+1. [Care.com - Requirements to Qualify for Medicare Home Health Care Explained](https://www.care.com/c/how-to-qualify-for-home-health-care/)
+2. [NCOA - What Home Health Is Covered by Medicare?](https://www.ncoa.org/article/seven-things-you-should-know-about-medicares-home-health-care-benefit/)
+
+These sources provide in-depth explanations of the criteria and qualifications needed to receive home health care under Medicare.
+
+**Sources:**
+1. [Care.com - Requirements to Qualify for Medicare Home Health Care Explained](https://www.care.com/c/how-to-qualify-for-home-health-care/)
+2. [NCOA - What Home Health Is Covered by Medicare?](https://www.ncoa.org/article/seven-things-you-should-know-about-medicares-home-health-care-benefit/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.9047647414889745
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.2809529482977949

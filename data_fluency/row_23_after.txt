@@ -1,0 +1,18 @@
+Use Case: Weill Cornell
+Query: weill cornell fertility doctors
+URL: https://ivf.org/about-us/physicians
+
+Response_After: When looking for information about fertility doctors affiliated with Weill Cornell Medicine, you can explore various resources to find details about specialists, services, and patient experiences related to fertility treatments at the institution:
+
+1. **Weill Cornell Fertility Instagram Page**:
+   - Visit the [Weill Cornell Medicine Fertility Instagram page](https://www.instagram.com/weillcornellfertility/?hl=en) for updates, insights, and posts related to fertility treatments and services provided by Weill Cornell Medicine.
+
+2. **Weill Cornell Medicine's Center for Reproductive Medicine**:
+   - Explore the [Weill Cornell Medicine's Center for Reproductive Medicine](https://weillcornell.org/news/weill-cornell-medicine%E2%80%99s-center-for-reproductive-medicine-has-been-ranked-by-newsweek-as-the-1) to find detailed information about fertility specialists, doctors, and the services offered by the center
+
+Position Score_After: 0.0
+Similarity Score_After: 0.8535781116322421
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.2707156223264484

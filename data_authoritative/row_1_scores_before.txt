@@ -1,0 +1,10 @@
+Use Case: Weill Cornell
+Query: What is the best center for reproductive medicine in New York City?
+URL: https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic
+
+Position Score: 0.5
+Similarity Score: 0.9238026845325746
+Website Score: 1
+Sentiment Score: 0.116
+SEO Score: 0.5
+Final Score: 0.607960536906515

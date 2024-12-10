@@ -1,0 +1,18 @@
+Use Case: Weill Cornell
+Query: What is Weill Cornell Medicine?
+URL: https://weill.cornell.edu/
+
+Response: Weill Cornell Medicine is a renowned institution that encompasses patient care, scientific research, and the education of future physicians on a global scale. The institution has a rich history dating back to 1898 and is known for its commitment to excellence in clinical care, cutting-edge research, and the training of medical professionals.
+
+Weill Cornell Medicine's network includes collaborative efforts that span across the globe, from its parent institution Cornell University to international programs in Qatar, Tanzania, Haiti, Brazil, Austria, and Turkey. This global reach underscores the institution's dedication to advancing healthcare globally and fostering innovation in medical education and patient care.
+
+The esteemed faculty at Weill Cornell Medicine plays a crucial role in delivering exceptional patient care at prestigious institutions such as NewYork-Presbyterian/Weill Cornell Medical Center, NewYork-Presbyterian Westchester Behavioral Health Center, and others.
+
+For further information on Weill Cornell Medicine, you can explore their [official website](https://weill.cornell.edu/) to learn more about their history, mission, educational programs, and contributions to healthcare worldwide.
+
+Position Score: 0.25
+Similarity Score: 0.9169736511414839
+Website Score: 1
+Sentiment Score: 0.177
+SEO Score: 0.5
+Final Score: 0.5687947302282967

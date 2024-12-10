@@ -1,0 +1,48 @@
+Use Case: Cornell
+Query: Top universities for law program in the US east coast
+URL: https://www.lawschool.cornell.edu/
+
+Response_After: When looking for the top universities offering law programs on the US East Coast, several prestigious institutions are renowned for their excellence in legal education, faculty expertise, and academic opportunities. Here are some of the top universities for law programs on the US East Coast:
+
+1. **Harvard Law School**:
+   - **Location**: Cambridge, Massachusetts
+   - **About**: Harvard Law School is one of the most prestigious law schools globally, known for its rigorous curriculum, distinguished faculty, and influential alumni. It offers a comprehensive legal education and a wide range of programs.
+   - **Website**: [Harvard Law School](https://hls.harvard.edu/)
+
+2. **Yale Law School**:
+   - **Location**: New Haven, Connecticut
+   - **About**: Yale Law School is renowned for its commitment to public service, legal scholarship, and interdisciplinary approach to legal education. It emphasizes critical thinking and practical experience.
+   - **Website**: [Yale Law School](https://law.yale.edu/)
+
+3. **Columbia Law School**:
+   - **Location**: New York City, New York
+   - **About**: Columbia Law School offers a diverse and dynamic legal education with a strong emphasis on theoretical knowledge and practical skills. It has a rich history and a reputation for excellence.
+   - **Website**: [Columbia Law School](https://www.law.columbia.edu/)
+
+4. **New York University School of Law (NYU Law)**:
+   - **Location**: New York City, New York
+   - **About**: NYU School of Law is known for its innovative programs, global perspective, and emphasis on experiential learning. It provides a vibrant legal community and a wide array of opportunities.
+   - **Website**: [NYU School of Law](https://www.law.nyu.edu/)
+
+5. **University of Pennsylvania Carey Law School**:
+   - **Location**: Philadelphia, Pennsylvania
+   - **About**: Penn Carey Law School offers a supportive and collaborative environment for legal education, focusing on interdisciplinary studies and practical training. It is committed to academic excellence and social impact.
+   - **Website**: [Penn Carey Law School](https://www.law.upenn.edu/)
+
+These top law schools on the US East Coast provide exceptional legal education, research opportunities, and networking prospects, making them esteemed institutions for students aspiring to pursue a legal career.
+
+For more detailed information on each law school's programs and offerings, you can explore their respective websites provided above.
+
+**Sources:**
+- [Harvard Law School](https://hls.harvard.edu/)
+- [Yale Law School](https://law.yale.edu/)
+- [Columbia Law School](https://www.law.columbia.edu/)
+- [NYU School of Law](https://www.law.nyu.edu/)
+- [Penn Carey Law School](https://www.law.upenn.edu/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.9015552179698636
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.28031104359397274

@@ -1,0 +1,10 @@
+Use Case: Medicare Parts
+Query: What are the parts of Medicare?
+URL: https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare
+
+Position Score: 0.0
+Similarity Score: 0.8976485407869328
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.27952970815738654

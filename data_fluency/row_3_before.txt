@@ -1,0 +1,23 @@
+Use Case: Weill Cornell
+Query: What is the best center for aging in New York City?
+URL: https://weillcornell.org/agingctr
+
+Response: The best center for aging in New York City is the [Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic) at Weill Cornell Medicine. This center specializes in reproductive medicine and fertility treatments rather than aging-related services. For information on centers that cater to aging and older adults in New York City, you may want to explore resources provided by the New York City Department for the Aging.
+
+The New York City Department for the Aging offers support and services for older adults through a network of [Older Adult Centers (OACs)](https://www.nyc.gov/site/dfta/services/older-adult-center.page) and affiliated sites across the five boroughs. These centers provide a variety of resources, including healthy meals, fun activities, classes, fitness programs, and more to promote well-being and social engagement among aging individuals.
+
+For personalized information and referrals related to aging services, you can contact the [Aging Connect](https://www.nyc.gov/site/dfta/services/find-help.page) helpline at 212-AGING-NYC (212-244-6469). Aging Connect serves as the New York City Department for the Aging's information and referral contact center, assisting older adults and their families in accessing the support and resources they need.
+
+If you are looking for comprehensive services and programs specifically tailored to the aging population in New York City, the Older Adult Centers and the resources provided by the Department for the Aging are valuable options to consider.
+
+Sources:
+- [Newsweek ranks Center for Reproductive Medicine nation’s #1 fertility clinic](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+- [Older Adult Centers - NYC Department for the Aging](https://www.nyc.gov/site/dfta/services/older-adult-center.page)
+- [Aging Connect - NYC Department for the Aging](https://www.nyc.gov/site/dfta/services/find-help.page)
+
+Position Score: 0.0
+Similarity Score: 0.9072972498624949
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.281459449972499

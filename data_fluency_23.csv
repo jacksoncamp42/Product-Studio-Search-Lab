@@ -1,0 +1,24 @@
+Use Case,Query,URL,SEO Score,SEO Score After,Position Score,Position Score After,Similarity Score,Similarity Score After,Website Score,Website Score After,Sentiment Score,Sentiment Score After,Final Score,Final Score After
+Medicare Parts,What are the parts of Medicare?,https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare?utm_source=chatgpt.com,0.5,0.5,0,0,0.893040846,0.896397089,0,0,0,0,0.278608169,0.279279418
+Weill Cornell,What is the best center for reproductive medicine in New York City?,https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic,0.5,0.5,0.5,0.5,0.888759226,0.890279936,1,1,0.102,0.143,0.598151845,0.606655987
+Medicare Parts,What is Original Medicare? ,https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics,0.5,0.5,1,1,0.897370568,0.897370568,1,1,0.224,0.224,0.724274114,0.724274114
+Weill Cornell,What is the best center for aging in New York City?,https://weillcornell.org/agingctr,0.5,0.5,0.5,0.5,0.888316444,0.890383983,1,1,0.155,0.164,0.608663289,0.610876797
+Extra Help Basics,What is LIS?,https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/the-extra-helplow-income-subsidy-lis-program/extra-help-basics,0.5,0.5,0,0,0.842070091,0.844201105,0,0,0,0,0.268414018,0.268840221
+IRMAA,Why do I have a higher Part B premium? ,https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-costs/part-b-costs-for-those-with-higher-incomes,0.5,0.5,0,0,0.885902494,0.88342894,0,0,0,0,0.277180499,0.276685788
+Home Health Care,How do I/you qualify for home health care under Medicare?,https://www.medicareinteractive.org/get-answers/medicare-covered-services/home-health-services/eligibility-for-home-health-part-a-or-part-b,0.5,0.5,0,0,0.908515972,0.904764741,0,0,0,0,0.281703194,0.280952948
+Weill Cornell,What is the best ophthalmology center in New York?,https://weillcornell.org/wcm-ophthalmology,0.5,0.5,0,0,0.877155444,0.879144318,0,0,0,0,0.275431089,0.275828864
+Home Health Care,Does Medicare cover care at home?,https://www.medicareinteractive.org/get-answers/medicare-covered-services/home-health-services/eligibility-for-home-health-part-a-or-part-b,0.5,0.5,0,0,0.899856107,0.89981586,0,0,0,0,0.279971221,0.279963172
+Donut Hole,What is the donut hole?,https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole,0.5,0.5,0.25,0.25,0.857077147,0.865860024,1,1,0,0.061,0.521415429,0.535372005
+Donut Hole,What is the coverage gap?,https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole,0.5,0.5,0.25,0.25,0.855052007,0.855052007,1,1,0.057,0.057,0.532410401,0.532410401
+Weill Cornell,What is the best weight loss center in New York?,https://weillcornell.org/comprehensive-weight-control-center,0.5,0.5,0,0,0.872712175,0.877057666,0,0,0,0,0.274542435,0.275411533
+Weill Cornell,Best doctors in reproductive medicine in the US,https://weillcornell.org/zrosenwaks,0.5,0.5,0,0,0.89282262,0.897633446,0,0,0,0,0.278564524,0.279526689
+Weill Cornell,Weill cornell dermatology center for hidradenitis suppurativa,https://weillcornell.org/steven-cohen-md-mph,1,0.5,0.333333333,0.333333333,0.912013458,0.905089796,1,1,0,0,0.649069358,0.547684626
+Weill Cornell,Top medical schools in the US east coast,https://weill.cornell.edu/,0.5,0.5,0,0,0.907256086,0.904047866,0,0,0,0,0.281451217,0.280809573
+Weill Cornell,What is Weill Cornell Medicine?,https://weill.cornell.edu/,0.5,0.5,0.25,0.25,0.916973651,0.912299765,1,1,0.177,0.179,0.56879473,0.568259953
+Cornell,Top universities for computer science program in the US east coast,https://www.cs.cornell.edu/,0.5,0.5,0,0,0.908013789,0.910292405,0,0,0,0,0.281602758,0.282058481
+Cornell,Top universities for law program in the US east coast,https://www.lawschool.cornell.edu/,0.5,0.5,0,0,0.901555218,0.901555218,0,0,0,0,0.280311044,0.280311044
+Weill Cornell,Weill cornell doctors,https://weillcornell.org/doctors,0.5,0.5,0,0,0.844386321,0.834666234,0,0,0,0,0.268877264,0.266933247
+Cornell,top universities for master programs in the US east coast,https://www.cornell.edu/,1,1,0,0,0.893188244,0.893188244,0,0,0,0,0.378637649,0.378637649
+Cornell,top universities for tech mba programs in the US east coast,https://www.johnson.cornell.edu/,0.5,0.5,0,0,0.897826591,0.897826591,0,0,0,0,0.279565318,0.279565318
+Cornell,top universities for vet programs in the US,https://www.vet.cornell.edu/,0.5,0.5,0.5,0.5,0.897505027,0.897505027,1,1,0.107,0.107,0.600901005,0.600901005
+Weill Cornell,weill cornell fertility doctors,https://ivf.org/about-us/physicians,0.5,0.5,0,0,0.856629711,0.853578112,0,0,0,0,0.271325942,0.270715622

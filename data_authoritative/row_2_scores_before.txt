@@ -1,0 +1,10 @@
+Use Case: Medicare Parts
+Query: What is Original Medicare? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics
+
+Position Score: 0.125
+Similarity Score: 0.8887429085845936
+Website Score: 1
+Sentiment Score: 0.179
+SEO Score: 0.5
+Final Score: 0.5385485817169187

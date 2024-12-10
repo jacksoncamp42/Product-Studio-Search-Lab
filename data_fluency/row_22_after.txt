@@ -1,0 +1,48 @@
+Use Case: Cornell
+Query: top universities for vet programs in the US
+URL: https://www.vet.cornell.edu/
+
+Response_After: When it comes to the top universities for veterinary programs in the US, several prestigious institutions are renowned for their excellence in veterinary education and training. Here are some of the top universities offering exceptional veterinary programs in the United States:
+
+1. **Cornell University College of Veterinary Medicine**:
+   - **Location**: Ithaca, New York
+   - **About**: Cornell University offers one of the best veterinary programs in the country, known for its research contributions, clinical training, and animal care facilities. The College of Veterinary Medicine at Cornell is highly respected in the field.
+   - **Website**: [Cornell University College of Veterinary Medicine](https://www.vet.cornell.edu/)
+
+2. **University of California, Davis School of Veterinary Medicine**:
+   - **Location**: Davis, California
+   - **About**: UC Davis is a leading institution for veterinary education with a strong focus on animal health, research, and clinical practice. The School of Veterinary Medicine at UC Davis is known for its diverse programs and innovative approach.
+   - **Website**: [UC Davis School of Veterinary Medicine](https://www.vetmed.ucdavis.edu/)
+
+3. **Colorado State University College of Veterinary Medicine and Biomedical Sciences**:
+   - **Location**: Fort Collins, Colorado
+   - **About**: Colorado State University is recognized for its outstanding veterinary programs, cutting-edge research, and specialized veterinary services. The College of Veterinary Medicine and Biomedical Sciences at CSU offers a comprehensive curriculum.
+   - **Website**: [CSU College of Veterinary Medicine](https://vetmedbiosci.colostate.edu/)
+
+4. **University of Pennsylvania School of Veterinary Medicine**:
+   - **Location**: Philadelphia, Pennsylvania
+   - **About**: The University of Pennsylvania is home to a prestigious School of Veterinary Medicine known for its academic excellence, clinical training, and research initiatives. Penn Vet is a top choice for aspiring veterinarians.
+   - **Website**: [Penn Vet School of Veterinary Medicine](https://www.vet.upenn.edu/)
+
+5. **North Carolina State University College of Veterinary Medicine**:
+   - **Location**: Raleigh, North Carolina
+   - **About**: NC State University offers a renowned College of Veterinary Medicine with a focus on innovative research, community engagement, and veterinary education. The college provides a well-rounded veterinary program.
+   - **Website**: [NC State College of Veterinary Medicine](https://cvm.ncsu.edu/)
+
+These universities represent some of the top institutions for veterinary programs in the US, offering comprehensive education, research opportunities, and hands-on training for aspiring veterinarians.
+
+For more detailed information on each university's veterinary programs, you can explore their respective websites provided above.
+
+**Sources:**
+- [Cornell University College of Veterinary Medicine](https://www.vet.cornell.edu/)
+- [UC Davis School of Veterinary Medicine](https://www.vetmed.ucdavis.edu/)
+- [CSU College of Veterinary Medicine](https://vetmedbiosci.colostate.edu/)
+- [Penn Vet School of Veterinary Medicine](https://www.vet.upenn.edu/)
+- [NC State College of Veterinary Medicine](https://cvm.ncsu.edu/)
+
+Position Score_After: 0.5
+Similarity Score_After: 0.8975050265257896
+Website Score_After: 1
+Sentiment Score_After: 0.107
+SEO Score_After: 0.5
+Final Score_After: 0.6009010053051579
