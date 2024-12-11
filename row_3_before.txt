@@ -1,0 +1,21 @@
+Use Case: Weill Cornell
+Query: What is the best center for aging in New York City?
+URL: https://weillcornell.org/agingctr
+
+Text: The physicians and nurse practitioners at The Center on Aging provide both primary care and consultation to older adults in a multidisciplinary setting. The Center on Aging is dedicated to providing older adults with comprehensive care so that they can lead fulfilling lives to the greatest extent possible. We accept Medicare and many managed care plans.
+
+Response: The best center for aging in New York City is [Weill Cornell Medicine’s Center on Aging](https://weillcornell.org/agingctr). This center is dedicated to providing older adults with comprehensive care, offering both primary care and consultations in a multidisciplinary setting. The Center on Aging aims to help older adults lead fulfilling lives to the greatest extent possible by providing a range of healthcare services.
+
+At Weill Cornell Medicine’s Center on Aging, physicians and nurse practitioners offer primary care services and consultations tailored to the specific needs of older adults. The center accepts Medicare and many managed care plans, ensuring accessibility to a broad range of patients.
+
+The focus of the Center on Aging is to deliver comprehensive care that addresses the unique healthcare needs of older individuals, emphasizing their well-being and quality of life. With a commitment to providing exceptional care to older adults, Weill Cornell Medicine’s Center on Aging stands out as a top choice for aging services in New York City.
+
+Source:
+- [Weill Cornell Medicine’s Center on Aging](https://weillcornell.org/agingctr)
+
+Position Score: 1.0
+Similarity Score: 0.9000218353981023
+Website Score: 1
+Sentiment Score: 0.266
+SEO Score: 0.5
+Final Score: 0.7332043670796204

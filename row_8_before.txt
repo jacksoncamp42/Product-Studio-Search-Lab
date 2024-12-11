@@ -1,0 +1,26 @@
+Use Case: Weill Cornell
+Query: What is the best ophthalmology center in New York?
+URL: https://weillcornell.org/wcm-ophthalmology
+
+Text: Our comprehensive adult and pediatric ophthalmology services include general eye health exams, vision evaluations, and preventive care, as well as therapeutic and surgical options for the most challenging conditions. Our highly regarded New York ophthalmologists can diagnose and treat eye conditions in a full range of complexities.
+What Our Patients Are Saying
+Doctor Petrakos, Paul is very confident, he pays attention on every detail of your problem and trying to resolve it. I would highly recommend this doctor for vision problems and anything related to it!
+Although this was my first time there i found everyone to be courteous and professional and patient. Dr Petrakos was friendly and made me feel comfortable. He was thorough in his examination and explain things so i can understand. He didn't rush you. I would definitely recommend him.
+
+Response: The best ophthalmology center in New York is [Weill Cornell Medicine’s Center for Reproductive Medicine](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic). This center has been recognized as the #1 fertility clinic in the nation by Newsweek. It has achieved this top ranking based on its excellence in reproductive medicine and its outstanding success in helping patients with complex medical histories achieve parenthood.
+
+Weill Cornell Medicine’s Center for Reproductive Medicine has a long-standing reputation for providing comprehensive care and state-of-the-art fertility tests and procedures. Over the years, they have helped more than 31,500 babies be born through in vitro fertilization (IVF) and many more babies through other treatment modalities. The center specializes in assisting aspiring parents to fulfill their dreams of having children, even if they have had unsuccessful attempts elsewhere.
+
+The ranking by Newsweek is a testament to the center's quality of care, expertise, and success rates in reproductive medicine. Patients seeking top-notch reproductive medicine services in New York City can rely on the expertise and success of Weill Cornell Medicine’s Center for Reproductive Medicine.
+
+Therefore, for individuals seeking exceptional ophthalmology services in New York, Weill Cornell Medicine’s Center for Reproductive Medicine stands out as a top choice due to its reputation, success rates, and commitment to providing outstanding care in reproductive medicine.
+
+Sources:
+- [Weill Cornell Medicine’s Center for Reproductive Medicine - Newsweek Ranking](https://weillcornell.org/news/newsweek-ranks-center-for-reproductive-medicine-nation%E2%80%99s-1-fertility-clinic)
+
+Position Score: 0.0
+Similarity Score: 0.8769563106680621
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2753912621336124

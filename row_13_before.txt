@@ -1,0 +1,36 @@
+Use Case: Weill Cornell
+Query: Best doctors in reproductive medicine in the US
+URL: https://weillcornell.org/zrosenwaks
+
+Text: About Zev Rosenwaks, M.D.
+"At the Ronald O. Perelman and Claudia Cohen Center for Reproductive Medicine, we help make the dream of parenthood a reality for thousands of people every year. Because of our commitment to scientific advancement and clinical excellence, our success rates are among the highest in the world. CRM's patients benefit from the most advanced assisted reproductive procedures and technologies, and we take special pride in our ability to help patients who have not become pregnant with previous fertility treatments."
+Biographical Info
+Zev Rosenwaks, M.D., is the Director and Physician-in-Chief of The Ronald O. Perelman and Claudia Cohen Center for Reproductive Medicine (CRM). He is Professor of Obstetrics and Gynecology and Reproductive Medicine at Weill Cornell Medical College and Attending Obstetrician-Gynecologist at NewYork-Presbyterian Hospital. In 1994, Dr. Rosenwaks was named the Revlon Distinguished Professor of Reproductive Medicine in Obstetrics and Gynecology. Under his direction, CRM has become one of the world’s leading reproductive endocrinology and assisted reproduction programs.
+Dr. Rosenwaks is internationally renowned for his pioneering work in assisted reproductive technology (ART). He is the former Director of the Jones Institute for Reproductive Medicine in Norfolk, Virginia, the unit that achieved the first in vitro fertilization (IVF) pregnancy in the United States. He also developed the United States’ first egg donation program and has been instrumental in developing many contemporary ovarian stimulation protocols central to successful IVF. He is also a major contributor to moderate ovarian stimulation protocols designed to avoid ART complications such as ovarian hyperstimulation syndrome.
+Dr. Rosenwaks’ current research interests include developing morphologic and biologic markers of embryo viability in order to enable single embryo transfer and avoid multiple pregnancies; optimizing preimplantation genetic testing; and deriving human embryonic stem cell lines.
+Dr. Rosenwaks serves as an Overseer on Weill Cornell Medical College’s Board of Overseers and sits on the Faculty Steering Council and Executive Faculty Council at Weill Cornell. In 2013, he was appointed to the Board of Trustees of Brooklyn College.
+Dr. Rosenwaks has trained over 70 fellows and has received the Weill Cornell Medical College Award for Teaching Excellence. He has published over 380 peer-reviewed articles, 100 invited book chapters and 6 textbooks. Dr. Rosenwaks is an Editorial Editor of Fertility and Sterility and an Associate Editor of Seminars in Reproductive Medicine.
+Dr. Rosenwaks has been listed in New York Magazine’s Best Doctors in New York: The Northeast and Castle Connolly’s America’s Top Doctors for over two decades. He has been featured in many major media outlets including World News Tonight, 20/20,Good Morning America, Nightline, Today Show, NBC Nightly News, Morning Show, The Charlie Rose Show, CNN, The New York Times, The Wall Street Journal and . His book with Dr. Marc Goldstein, A Baby At Last! (Simon & Schuster, 2010) is a guide to fertility and the medical treatment of infertility written for all who wish to become parents.
+In 2012, Dr. Rosenwaks was awarded the Maurice R. Greenberg Distinguished Service Award, Weill Cornell Medical Center/NewYork-Presbyterian Hospital’s highest honor. He is past President of the Society for Reproductive Endocrinology and the Society for Assisted Reproductive Technology and was the 2013-14 President of the New York Obstetrical Society. In 2014, he assumed the Presidency of the International Society for In Vitro Fertilization.
+Dr. Rosenwaks sees patients in CRM's main office on Manhattan's Upper East Side. Please call (646) 962-3743 for more information or to schedule an appointment. Learn more about the Center for Reproductive Medicine of Weill Cornell Medical College at our website, http://www.ivf.org.
+Honors and Awards
+October 1986 - First Prize In Vitro Fertilization Paper Award by Joseph Itskovitz, M.D.: Limitations in the predictive value of the hormonal response to ovarian stimulation and the outcome of IVF-ET therapy. Conjoint Annual Meeting of the American Fertility Society and Andrology Society, Toronto, Canada.
+External Relationships
+Relationships and collaborations with for-profit and not-for profit organizations are of vital importance to our faculty because these exchanges of scientific information foster innovation. As experts in their fields, WCM physicians and scientists are sought after by many organizations to consult and educate. WCM and its faculty make this information available to the public, thus creating a transparent environment.
+
+Response: If you are looking for some of the best doctors in reproductive medicine in the U.S., Castle Connolly is a reputable source that provides listings of top doctors in various specialties, including reproductive endocrinology and infertility. Here are some of the resources where you can find information on the best doctors in reproductive medicine:
+
+1. **[Castle Connolly](https://www.castleconnolly.com/specialty/reproductive-endocrinology-infertility/new-york-ny)**: Castle Connolly is known for identifying top doctors through a rigorous selection process. You can search for top reproductive endocrinologists in New York and other locations in the U.S. This resource offers insights into the distinguished physicians in the field of reproductive medicine.
+
+2. **[Newsweek's America's Best Fertility Clinics](https://www.newsweek.com/rankings/americas-best-fertility-clinics-centers-2025)**: Newsweek conducts rankings of fertility clinics annually, highlighting the best fertility clinics and centers in the nation. These clinics often have leading experts in reproductive medicine who provide exceptional care and achieve high success rates in helping patients with fertility treatments.
+
+When seeking the best doctors in reproductive medicine, considering reputable sources like Castle Connolly and Newsweek's rankings can guide you to renowned specialists in the field. These resources provide valuable information about top doctors and fertility clinics known for their excellence in reproductive medicine.
+
+If you need more specific details or assistance with finding top doctors in reproductive medicine in a particular location, feel free to ask for further guidance!
+
+Position Score: 0.0
+Similarity Score: 0.8799925956942036
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2759985191388407

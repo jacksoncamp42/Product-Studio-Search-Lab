@@ -1,0 +1,48 @@
+Use Case: Weill Cornell
+Query: Top medical schools in the US east coast
+URL: https://weill.cornell.edu/
+
+Text: Weill Cornell Medicine stands unwavering in its commitment to excellence in patient care, scientific discovery, and the education of future physicians not just in New York City, but across the globe. For over a century, our esteemed doctors and scientists have relentlessly pursued world-class clinical care and cutting-edge research, bridging patients with the forefront of treatment innovations and preventive strategies. The vast influence of Weill Cornell Medicine's robust network transcends boundaries, encompassing partnerships with Cornell University, Weill Cornell Medicine-Qatar in association with Cornell University, as well as initiatives in diverse regions such as Tanzania, Haiti, Brazil, Austria, and Turkey.
+
+The illustrious faculty of Weill Cornell Medicine epitomize exemplary patient care at esteemed institutions like NewYork-Presbyterian/Weill Cornell Medical Center, NewYork-Presbyterian Westchester Behavioral Health Center, NewYork-Presbyterian Lower Manhattan Hospital, NewYork-Presbyterian Queens, and NewYork-Presbyterian Brooklyn Methodist Hospital. Furthermore, the prestigious affiliation with Houston Methodist underscores our commitment to excellence in healthcare across various domains.
+
+Research conducted at Weill Cornell Medicine explores groundbreaking approaches to address the opioid crisis. For instance, pioneering studies indicate that elevating the levels of endocannabinoids, intrinsic chemicals within the body, may serve as a formidable deterrent against the pernicious addictive qualities of opioids such as morphine and oxycodone, whilst preserving the therapeutic integrity of these medications.
+
+Dr. Ria Goswami, an esteemed assistant professor of virology in pediatrics, has been honored with the distinguished Gilead Research Scholars Award from the Gilead Sciences Research Scholars Program. This illustrious accolade reflects the significant support allocated towards Dr. Goswami's pioneering research focusing on unraveling the intricate mechanisms underlying the relationship between the infant gut microbiome and the susceptibility to oral HIV acquisition.
+
+Renowned for her profound expertise, Dr. Inmaculada de Melo-Martin, a distinguished professor specializing in medical ethics, population health sciences, and reproductive medicine, has been inducted as a fellow of the esteemed European Academy of Sciences. This prestigious appointment underscores her exceptional contributions to the field and her remarkable stature among leading European scholars.
+
+Dr. Darshana Dadhania, an accomplished associate professor of medicine and surgery, was bestowed with the esteemed American Society of Transplantation's Clinical Science Investigator Award at the prestigious American Transplant Congress. This coveted award recognizes the significant impact of mid-career investigators in advancing the field of transplantation medicine, underscoring Dr. Dadhania's pivotal role in driving impactful clinical research.
+
+In reflection of gratitude and camaraderie, Thanksgiving resonates deeply within the fabric of our traditions. Beyond the culinary delights shared with loved ones, it serves as a poignant reminder of the transformative power of kindness and the enduring value of expressing gratitude, enriching our lives in profound ways. As we embark on this joyous week of celebration, let us collectively pause to express appreciation for the blessings that enrich our lives.
+
+Response_After: When looking for the top medical schools on the East Coast of the United States, several prestigious institutions are known for their exceptional medical education, research opportunities, and clinical training programs. Here are some of the top medical schools on the East Coast:
+
+1. **Harvard Medical School** - Located in Boston, Massachusetts, Harvard Medical School is renowned for its cutting-edge research, innovative medical education, and world-class faculty. It consistently ranks among the best medical schools globally.
+
+2. **Johns Hopkins University School of Medicine** - Based in Baltimore, Maryland, Johns Hopkins School of Medicine is a leader in medical research, patient care, and medical education. It is affiliated with Johns Hopkins Hospital, a top-ranked healthcare facility.
+
+3. **Columbia University Vagelos College of Physicians and Surgeons** - Situated in New York City, Columbia University's Vagelos College of Physicians and Surgeons is known for its excellence in medical education, research, and healthcare delivery.
+
+4. **Perelman School of Medicine at the University of Pennsylvania** - Located in Philadelphia, Pennsylvania, the Perelman School of Medicine is recognized for its comprehensive medical programs, research initiatives, and strong clinical partnerships.
+
+5. **Icahn School of Medicine at Mount Sinai** - Based in New York City, the Icahn School of Medicine at Mount Sinai is known for its focus on translational research, patient-centered care, and commitment to community health.
+
+6. **Yale School of Medicine** - Situated in New Haven, Connecticut, the Yale School of Medicine is esteemed for its contributions to medical education, research advancements, and patient care.
+
+These top medical schools on the East Coast are renowned for their academic excellence, research achievements, and clinical training opportunities. Prospective medical students seeking a rigorous and comprehensive medical education may find these institutions to be among the best choices for pursuing their medical studies.
+
+Sources:
+- [Harvard Medical School](https://hms.harvard.edu/)
+- [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/som/index.html)
+- [Columbia University Vagelos College of Physicians and Surgeons](https://www.ps.columbia.edu/)
+- [Perelman School of Medicine at the University of Pennsylvania](https://www.med.upenn.edu/)
+- [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
+- [Yale School of Medicine](https://medicine.yale.edu/)
+
+Position Score_After: 0.0
+Similarity Score_After: 0.9075365213711679
+Website Score_After: 0
+Sentiment Score_After: 0
+SEO Score_After: 0.5
+Final Score_After: 0.2815073042742336

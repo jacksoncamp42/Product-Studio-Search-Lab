@@ -1,0 +1,55 @@
+Use Case: IRMAA
+Query: Why do I have a higher Part B premium? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-costs/part-b-costs-for-those-with-higher-incomes
+
+Text: The MedicareIncome-Related Monthly Adjustment Amount (IRMAA) is an amount you may pay in addition to your Part B or Part Dpremium if your income is above a certain level. The Social Security Administration (SSA) sets four income brackets that determine your (or you and your spouse’s) IRMAA. SSA determines if you owe an IRMAA based on the income you reported on your IRS tax return two years prior, meaning two years before the year that you start paying IRMAA. The income that counts is the adjusted gross income you reported plus other forms of tax-exempt income.
+If you are expected to pay IRMAA, SSA will notify you that you have a higher Part B premium.
+Your premium will change based on income as follows:
+Your annual income
+Your monthly premium in 2024
+Individuals
+Couples
+Equal to or below $103,000
+Equal to or below $206,000
+$174.70
+$103,001 -$129,000
+$206,001 – $258,000
+$244.60
+$129,001 – $161,000
+$258,001 – $322,000
+$349.40
+$161,001 – $193,000
+$322,001 – $386,000
+$454.20
+$193,001 – $499,999
+$386,001 – $749,999
+$559
+$500,000 and above
+$750,000 and above
+$594
+Back
+If you believe you should not pay IRMAA, your circumstances have changed, or your IRMAA was miscalculated, you have the right to request that SSA lower or eliminate your premium increase. You will have to submit evidence whether you are appealing SSA’s original determination or requesting a new determination.
+
+Response: If you have a higher Part B premium, it is likely due to the "income-related monthly adjustment amount," which is an additional premium amount that higher-income individuals pay for Medicare Part B coverage. This adjustment is applied to both Medicare Part B (medical insurance) and Medicare prescription drug coverage. Here's how it works:
+
+1. **Higher Income Bracket**: If your income falls within a higher income bracket, as determined by Social Security, you will be subject to paying an extra premium amount on top of the standard Part B premium. The income thresholds for these adjustments are based on your Modified Adjusted Gross Income (MAGI) from your tax return.
+
+2. **Income-Related Premium Tiers**: The income-related monthly adjustment amount has different tiers based on income levels. Individuals with higher incomes are placed in higher tiers and are required to pay a larger additional premium.
+
+3. **Part B Coverage**: Medicare Part B covers various medical services like doctors' visits, outpatient care, physical and occupational therapy, and some home health care. The additional premium is for this coverage, and the amount increases with higher income.
+
+4. **Tax Return Impact**: Social Security determines your premium based on the income reported on your tax return from two years ago. If your income has decreased significantly since then due to certain life-changing events, you can appeal the adjustment based on that new information.
+
+5. **Monthly Premium Adjustment**: The income-related monthly adjustment amount is added to the standard Part B premium, resulting in a higher premium payment for those in the higher income brackets.
+
+If you find that you have a higher Part B premium due to your income level, you can review the income thresholds, understand how the adjustment is calculated, and explore options to address any changes in your income that may affect your premium.
+
+Sources:
+- [Social Security - Medicare Premiums](https://www.ssa.gov/benefits/medicare/medicare-premiums.html)
+
+Position Score: 0.0
+Similarity Score: 0.8943377308213184
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 1.0
+Final Score: 0.37886754616426366

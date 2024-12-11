@@ -1,0 +1,33 @@
+Use Case: Cornell
+Query: Top universities for computer science program in the US east coast
+URL: https://www.cs.cornell.edu/
+
+Text: 
+
+Response: When it comes to pursuing a computer science program on the East Coast of the United States, several universities are renowned for their exceptional computer science programs. Here are some of the top universities known for their strong computer science programs on the East Coast:
+
+1. **Massachusetts Institute of Technology (MIT)** - Located in Cambridge, Massachusetts, MIT is known for its world-class computer science program, offering cutting-edge research opportunities and a rigorous curriculum in computer science and related fields.
+
+2. **Harvard University** - Situated in Cambridge, Massachusetts, Harvard University offers a robust computer science program with a focus on theoretical and applied aspects of computer science, artificial intelligence, and machine learning.
+
+3. **Carnegie Mellon University** - Based in Pittsburgh, Pennsylvania, Carnegie Mellon University is renowned for its computer science and artificial intelligence programs, providing students with a strong foundation in computer science theory and practical applications.
+
+4. **Princeton University** - Located in Princeton, New Jersey, Princeton University offers a distinguished computer science program that emphasizes research, innovation, and interdisciplinary collaboration in computer science and related fields.
+
+5. **University of Pennsylvania** - Situated in Philadelphia, Pennsylvania, the University of Pennsylvania provides a comprehensive computer science program with a focus on computer systems, artificial intelligence, and data science.
+
+6. **Cornell University** - Located in Ithaca, New York, Cornell University offers a top-tier computer science program known for its research excellence, diverse course offerings, and opportunities for hands-on learning in computer science.
+
+7. **Columbia University** - Based in New York City, Columbia University's computer science program is highly regarded for its innovative research, industry partnerships, and emphasis on emerging technologies in computer science.
+
+These universities on the East Coast are recognized for their outstanding computer science programs, faculty expertise, research opportunities, and career prospects for students pursuing a degree in computer science. Prospective students interested in computer science can explore these institutions for a robust and enriching academic experience in the field of computer science.
+
+Sources:
+- University Websites: MIT, Harvard, Carnegie Mellon, Princeton, University of Pennsylvania, Cornell University, Columbia University
+
+Position Score: 0.0
+Similarity Score: 0.9086118227325389
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2817223645465078

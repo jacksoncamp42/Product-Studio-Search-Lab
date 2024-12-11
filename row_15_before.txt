@@ -1,0 +1,42 @@
+Use Case: Weill Cornell
+Query: Top medical schools in the US east coast
+URL: https://weill.cornell.edu/
+
+Text: Weill Cornell Medicine is committed to excellence in patient care, scientific discovery and the education of future physicians in New York City and around the world. Since 1898, our doctors and scientists have been engaged in world-class clinical care and cutting-edge research that connect patients to the latest treatment innovations and prevention strategies. Weill Cornell Medicine's powerful network of collaborators extends to its parent university Cornell University; to Qatar, where Weill Cornell Medicine-Qatar offers a Cornell University medical degree; and to programs in Tanzania, Haiti, Brazil, Austria and Turkey. Weill Cornell Medicine faculty provide exemplary patient care at NewYork-Presbyterian/Weill Cornell Medical Center, NewYork-Presbyterian Westchester Behavioral Health Center, NewYork-Presbyterian Lower Manhattan Hospital, NewYork-Presbyterian Queens and NewYork-Presbyterian Brooklyn Methodist Hospital. Weill Cornell Medicine is also affiliated with Houston Methodist.
+Increasing the levels of chemicals naturally produced in the body called endocannabinoids may thwart the highly addictive nature of opioids such as morphine and oxycodone while maintaining the drugs...
+Dr. Ria Goswami, assistant professor of virology in pediatrics, received the Gilead Research Scholars Awardfrom theGilead Sciences Research Scholars Program. The prize will support Dr. Goswami’s research,which examines the role and mechanisms of infant gut microbiome on the risk of oral HIV acquisition.
+Professor of Medical Ethics in Medicine, of Population Health Sciences, and of Medical Ethics in Reproductive Medicine
+Dr. Inmaculada de Melo-Martin, professor of medical ethics in medicine, of population health sciences, and of medical ethics in reproductive medicine, has been named a fellow of the European Academy of Sciences. The academy isan independent international association of distinguished scholars that aims to recognize and elect to its membership leading European scientists.
+Dr. Darshana Dadhania, associate professor of medicine and of medicine in surgery, received the American Society of Transplantation’s Clinical Science Investigator AwardJune 5 at the American Transplant Congress.The Clinical Science Investigator Award recognizes mid-career investigators who have made substantial contributions to the field of transplantation medicine.
+Thanksgiving has always been one of my family’s favorite holidays. That’s not only because we share food with family and friends, but because the kindness we demonstrate and gratitude we express make our lives better. As we enter this celebratory week, I want to take a moment to share what I’m grateful for.
+
+Response: When considering the top medical schools on the East Coast of the United States, several institutions are renowned for their medical education programs and research facilities. Here are some of the top medical schools located on the East Coast:
+
+1. **Harvard Medical School** - Located in Boston, Massachusetts, Harvard Medical School is one of the oldest and most prestigious medical schools in the country. Known for its cutting-edge research and exceptional medical education, Harvard Medical School consistently ranks among the top medical schools in the U.S.
+
+2. **Johns Hopkins University School of Medicine** - Situated in Baltimore, Maryland, Johns Hopkins School of Medicine is renowned for its leadership in medical research and patient care. The school is affiliated with Johns Hopkins Hospital, a top-ranked hospital known for its innovative healthcare practices.
+
+3. **Columbia University Vagelos College of Physicians and Surgeons** - Based in New York City, Columbia University's College of Physicians and Surgeons is recognized for its commitment to patient care, medical education, and research. The medical school has a long history of excellence in training healthcare professionals.
+
+4. **Perelman School of Medicine at the University of Pennsylvania** - Located in Philadelphia, Pennsylvania, the Perelman School of Medicine is known for its comprehensive medical education programs and groundbreaking research initiatives. The school is affiliated with the prestigious Hospital of the University of Pennsylvania.
+
+5. **Icahn School of Medicine at Mount Sinai** - Situated in New York City, the Icahn School of Medicine at Mount Sinai is a leading medical institution known for its focus on translational research, innovative healthcare practices, and commitment to community health.
+
+6. **Yale School of Medicine** - Located in New Haven, Connecticut, the Yale School of Medicine is recognized for its dedication to medical education, research excellence, and patient-centered care. The medical school is affiliated with Yale New Haven Hospital.
+
+These medical schools on the East Coast are highly esteemed for their contributions to healthcare, medical research, and education. Prospective medical students seeking top-tier medical education and opportunities for clinical training may consider these institutions for their medical studies.
+
+Sources:
+- [Harvard Medical School](https://hms.harvard.edu/)
+- [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/som/index.html)
+- [Columbia University Vagelos College of Physicians and Surgeons](https://www.ps.columbia.edu/)
+- [Perelman School of Medicine at the University of Pennsylvania](https://www.med.upenn.edu/)
+- [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
+- [Yale School of Medicine](https://medicine.yale.edu/)
+
+Position Score: 0.0
+Similarity Score: 0.9047630076971491
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 1.0
+Final Score: 0.38095260153942984

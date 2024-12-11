@@ -1,0 +1,29 @@
+Use Case: Medicare Parts
+Query: What is Original Medicare? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics
+
+Text: Original Medicare, comprising of Part A and Part B, stands as the cornerstone of healthcare coverage for millions of Americans. When opting for Original Medicare, rest assured that the government directly covers the costs of crucial health services, ensuring your peace of mind and welfare.
+
+Enrolling in Original Medicare entails vital responsibilities, including bearing the cost-sharing burden encompassing premiums, deductibles, and coinsurances. Moreover, this pivotal step renders you eligible to participate in a Medigap policy, a strategic move aimed at mitigating your out-of-pocket expenses effectively.
+
+Should the need arise to transition between Original Medicare and a Medicare Advantage Plan, or vice versa, be mindful of designated enrollment periods governing such shifts. These periods serve as crucial windows during which you have the liberty to adjust your coverage as per your evolving healthcare needs.
+
+It is paramount to note that Original Medicare does not encompass the prescription drug benefit under Part D, a service exclusively provided by private entities. To safeguard your prescription drug requirements comprehensively, proactively consider enrolling in a standalone Part D plan, ensuring comprehensive coverage for your medication needs.
+
+Response_After: Original Medicare refers to the fundamental coverage provided by the federal government for healthcare services. It consists of two main parts: [Part A](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics) and [Part B](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics). Part A, also known as Hospital Insurance, covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health care. Part B, known as Medical Insurance, covers certain doctor services, outpatient care, medical supplies, and preventive services.
+
+When enrolled in Original Medicare, individuals are responsible for cost-sharing, which can include premiums, deductibles, and coinsurances. They also have the option to enroll in a Medigap policy to help reduce out-of-pocket costs. It's important to note that Original Medicare does not include prescription drug coverage (Part D), which is available through private companies. Therefore, individuals may need to consider signing up for a standalone Part D plan to ensure coverage for prescription drugs.
+
+Beneficiaries of Original Medicare have the flexibility to choose how they receive their coverage, either through Original Medicare (Parts A and B) or through Medicare Advantage plans (Part C). They can also opt for additional coverage for prescription drugs by adding a standalone Part D plan to Original Medicare or selecting a Medicare Advantage plan that includes prescription drug coverage.
+
+In summary, Original Medicare provides essential healthcare coverage through Parts A and B, and individuals have options to enhance their coverage through Medigap, Part D, or Medicare Advantage plans.
+
+Sources:
+- [Medicare Interactive - Original Medicare Basics](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics)
+
+Position Score_After: 1.0
+Similarity Score_After: 0.8897649458884646
+Website Score_After: 1
+Sentiment Score_After: 0.228
+SEO Score_After: 0.5
+Final Score_After: 0.723552989177693

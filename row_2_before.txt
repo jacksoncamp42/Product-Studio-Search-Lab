@@ -1,0 +1,27 @@
+Use Case: Medicare Parts
+Query: What is Original Medicare? 
+URL: https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics
+
+Text: Original Medicare consists of Part A and Part B. If you have Original Medicare, the government pays directly for the health care services you receive. Additionally, enrolling in Original Medicare means:
+You are responsible for Original Medicare cost-sharing, which may include premiums, deductibles, and coinsurances
+You are eligible to enroll in a Medigap policy, which can help reduce your out-of-pocket costs
+If you sign up for Original Medicare and later decide you would like to try a Medicare Advantage Plan—or vice versa—be aware that there are certain enrollment periods when you are allowed to make coverage changes.
+Original Medicare does not include the prescription drug benefit (Part D), which is only offered through private companies. You should consider signing up for a separate Part D plan to ensure that you have coverage for your prescription drug needs.
+
+Response: Original Medicare refers to the fundamental coverage provided by the federal government for healthcare services. It consists of two main parts: [Part A](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics) and [Part B](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics). Part A, also known as Hospital Insurance, covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health care. Part B, known as Medical Insurance, covers certain doctor services, outpatient care, medical supplies, and preventive services.
+
+When enrolled in Original Medicare, individuals are responsible for cost-sharing, which can include premiums, deductibles, and coinsurances. They also have the option to enroll in a Medigap policy to help reduce out-of-pocket costs. It's important to note that Original Medicare does not include prescription drug coverage (Part D), which is available through private companies. Therefore, individuals may need to consider signing up for a standalone Part D plan to ensure coverage for prescription drugs.
+
+Beneficiaries of Original Medicare have the flexibility to choose how they receive their coverage, either through Original Medicare (Parts A and B) or through Medicare Advantage plans (Part C). They can also opt for additional coverage for prescription drugs by adding a standalone Part D plan to Original Medicare or selecting a Medicare Advantage plan that includes prescription drug coverage.
+
+In summary, Original Medicare provides essential healthcare coverage through Parts A and B, and individuals have options to enhance their coverage through Medigap, Part D, or Medicare Advantage plans.
+
+Sources:
+- [Medicare Interactive - Original Medicare Basics](https://www.medicareinteractive.org/get-answers/medicare-health-coverage-options/original-medicare-coverage/original-medicare-basics)
+
+Position Score: 1.0
+Similarity Score: 0.8897649458884646
+Website Score: 1
+Sentiment Score: 0.228
+SEO Score: 0.5
+Final Score: 0.723552989177693

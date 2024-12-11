@@ -1,0 +1,35 @@
+Use Case: Weill Cornell
+Query: What is the best weight loss center in New York?
+URL: https://weillcornell.org/comprehensive-weight-control-center
+
+Text: Comprehensive Weight Control Center
+The Comprehensive Weight Control Center (CWCC) is part of the Division of Endocrinology, Diabetes, & Metabolism at Weill Cornell Medicine. It is a center of excellence in the area of obesity evaluation and treatment directed by Louis J. Aronne, MD, Professor of Clinical Medicine and the Sanford I. Weill Professor of Metabolic Research. The goal of the Center is to take a multidisciplinary approach to managing patients with obesity, and to provide evidence-based, compassionate clinical care. The Comprehensive Weight Control Center (CWCC) is also dedicated to research in the field of obesity and type 2 diabetes and training physicians and students in the field of obesity medicine.
+The medical team is composed of board-certified physicians with various backgrounds (Internal Medicine; Nutrition, and/or Endocrinology), registered dietitians, a family nurse practitioner/ diabetes educator who all work together to help patients lose and maintain weight loss through lifestyle intervention, medicine and surgical intervention if needed.
+Our Approach:
+Science has taught us that obesity is the result of numerous factors. It can also cause many health-related conditions; such as high blood pressure, high cholesterol, type 2 diabetes, cancer and arthritis. Our team provides an in-depth personal assessment to evaluate the source of our patients' weight-related issues. For example, where possible, we find solutions for medication-induced weight gain, and we evaluate for sleep disorders that can contribute to weight gain. We also address and manage weight issues associated with other chronic medical conditions, including disordered eating patterns related to craving and binging behaviors. In addition to behavioral strategies, we utilize medications and minimally invasive devices to assist in the weight loss process. Using the shared decision-making approach, which includes the patient, a personalized plan will be designed.
+Once the plan is established, we work closely with our patients to evaluate their response over time, and make changes as needed. Follow up is provided in person and also through technology such as remote patient monitoring, assessment, education, motivation, and support.
+Your First Visit:
+We are committed to meeting our patients' needs by providing outstanding medical care and attending to the small details that can make a patient's visit as smooth and stress-free as possible.
+Please make sure to arrive at least 15 minutes early for your appointment so that you, and all other patients, can be seen on time. Please note, if you are more than 15 minutes late for your appointment, you may be rescheduled to a different time that day, if time is available, or to a different day entirely.
+Completed Health History Form. Please include a list of all prescribed and over-the-counter medications, vitamins, herbs and supplements you take, including the dose (strength) and how often you take them.
+Electrocardiogram (only if you have had done within the last two years).
+If you do need to cancel or reschedule, please notify our staff as soon as possible. If all patients do this, it enables us to better accommodate patients in a timely manner. It is very important that you call 24 hours in advance to cancel your appointment.
+For more information regarding training programs at the Comprehensive Weight Control Center visit the following links:
+Joy Pape was my diabetes educator for four years. She inspired me, counseled me and did meal planning with me. When I was approved for an insulin pump, it was Joy who educated me about it and taught me how to use it and insert it. I recommend her enthusiastically and without reservation.
+
+Response: The best weight loss center in New York is [Weill Cornell Medicine’s Center for Reproductive Medicine](https://idealyou.com/), which specializes in reproductive medicine, as identified in the conversation history. However, for weight loss specifically, you may want to consider other reputable weight loss centers in New York City. Here are some top weight loss centers in New York:
+
+1. **[Ideal You Weight Loss Center](https://idealyou.com/)**: Ideal You offers a medical weight loss program in Western New York. They have helped over 7,800 individuals lose over 400,000 pounds through their personalized weight loss programs.
+
+2. **[NYC Health + Hospitals - Bariatric Surgery & Weight Management](https://www.nychealthandhospitals.org/bellevue/services/bariatric-surgery-weight-management/)**: NYC Health + Hospitals provides bariatric surgery and weight management services, offering comprehensive care for individuals seeking weight loss solutions in New York City.
+
+3. **[New York Bariatric Group](https://bariatric.stopobesityforlife.com/)**: The New York Bariatric Group is known for its expertise in bariatric surgery and weight management, providing tailored weight loss solutions and support for patients.
+
+When choosing the best weight loss center for your needs, consider factors like the expertise of the healthcare providers, the range of services offered, success rates, patient reviews, and the center's approach to weight loss. By exploring these top weight loss centers in New York, you can find the one that aligns with your weight loss goals and provides the support you need on your weight loss journey.
+
+Position Score: 0.0
+Similarity Score: 0.9000568572806088
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.28001137145612176

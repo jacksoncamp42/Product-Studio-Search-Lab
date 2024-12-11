@@ -1,0 +1,57 @@
+Use Case: Medicare Parts
+Query: What are the parts of Medicare?
+URL: https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare
+
+Text: Part D (Drug coverage)
+Part D helps cover the cost of prescription drugs (including many recommended shots or vaccines). You join a Medicare drug plan in addition to
+Original Medicare
+, or you get it by joining a
+Medicare Advantage Plan
+with drug coverage. Plans that offer Medicare drug coverage are run by private insurance companies that follow rules set by Medicare.
+Medicare Supplemental Insurance (Medigap)
+Extra insurance you can buy from a private company that helps pay your share of costs in Original Medicare. Policies are standardized, and in most states named by letters, like Plan G or Plan K. The benefits in each lettered plan are the same, no matter which insurance company sells it.
+Your Medicare options
+When you first sign up for Medicare and during certain times of the year, you can choose which way to get your Medicare coverage. There are 2 main ways:
+Original Medicare
+Original Medicare includes Part A and Part B.
+You can join a separate Medicare drug plan to get Medicare drug coverage (Part D).
+You can use any doctor or hospital that takes Medicare, anywhere in the U.S.
+You can also shop for and buy supplemental coverage that helps pay your out-of-pocket costs (like your 20%
+coinsurance
+).
+Medicare Advantage (also known as Part C)
+Medicare Advantage is a Medicare-approved plan from a private company that offers an alternative to Original Medicare for your health and drug coverage. These “bundled” plans include Part A, Part B, and usually Part D.
+In many cases, you can only use doctors who are in the plan’s
+network
+.
+Plans often have different out-of-pocket costs than Original Medicare or supplemental coverage like Medigap. You may also have an additional premium.
+What’s the difference between Medicare & Medicaid?
+Medicare is federal health insurance for anyone age 65 and older, and some people under 65 with certain disabilities or conditions. Medicaid is a joint federal and state program that provides health coverage for some people with limited income and resources. Medicaid offers benefits, like nursing home care, personal care services, and assistance paying for Medicare premiums and other costs.
+Medicare.govDepartment of Health and Human ServicesA federal government website managed and paid for by the U.S. Centers for Medicare and Medicaid Services. 7500 Security Boulevard, Baltimore, MD 21244
+
+Response: Medicare is divided into several parts that cover different aspects of healthcare services. The main parts of Medicare are [Part A](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) (Hospital Insurance) and [Part B](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare) (Medical Insurance), collectively known as Original Medicare. Part A covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health care. Part B covers certain doctor services, outpatient care, medical supplies, and preventive services.
+
+In addition to Original Medicare, there are two other parts of Medicare which are provided by private insurance companies that contract with Medicare. These are:
+- [Part C](https://www.ncdoi.gov/consumers/basics-medicare-parts-b-c-d) (Medicare Advantage): This combines Part A and Part B coverage and may also include additional benefits like prescription drug coverage, vision, dental, and fitness programs.
+- [Part D](https://www.ncdoi.gov/consumers/basics-medicare-parts-b-c-d) (Prescription Drug Coverage): This part helps cover the cost of prescription drugs and is available to everyone with Medicare.
+
+It's important to note that Medicare beneficiaries can choose how they receive their Medicare coverage—either through Original Medicare (Parts A and B) or through Medicare Advantage plans (Part C). Additionally, to get prescription drug coverage, beneficiaries can either add a standalone Part D plan to Original Medicare or choose a Medicare Advantage plan that includes prescription drug coverage.
+
+In summary:
+- **Part A**: Hospital Insurance
+- **Part B**: Medical Insurance
+- **Part C**: Medicare Advantage (combines Part A and Part B coverage)
+- **Part D**: Prescription Drug Coverage
+
+These parts work together to provide a comprehensive range of healthcare services to Medicare beneficiaries.
+
+Sources:
+1. [Medicare Interactive - Parts of Medicare](https://www.medicareinteractive.org/get-answers/medicare-basics/medicare-coverage-overview/original-medicare)
+2. [NC Department of Insurance - Basics of Medicare](https://www.ncdoi.gov/consumers/basics-medicare-parts-b-c-d)
+
+Position Score: 0.0
+Similarity Score: 0.894181393456802
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.2788362786913604

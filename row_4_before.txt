@@ -1,0 +1,58 @@
+Use Case: Extra Help Basics
+Query: What is LIS?
+URL: https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/the-extra-helplow-income-subsidy-lis-program/extra-help-basics
+
+Text: Extra Help is a federal program that helps pay for some to most of the out-of-pocket costs of Medicareprescription drug coverage. It is also known as the Part DLow-Income Subsidy (LIS).
+Extra Help eligibility
+If your monthly income is up to $1,903 in 2024 ($2,575 for couples) and your assets are below specified limits, you may be eligible for Extra Help (see the Extra Help income and asset limit chart for details). These limits include a $20 income disregard that the Social Security Administration (SSA) automatically subtracts from your monthly unearned income (e.g., retirement income).
+Even if your income or assets are above the eligibility limits, you could still qualify for Extra Help because certain types of income and assets may not be counted, in addition to the $20 mentioned above.
+If you are enrolled in Medicaid, Supplemental Security Income (SSI), or a Medicare Savings Program (MSP), you automatically qualify for Extra Help regardless of whether you meet Extra Help’s eligibility requirements. You should receive a purple-colored notice from the Centers for Medicare & Medicaid Services (CMS) informing you that you do not need to apply for Extra Help.
+Get Help Applying for Medicare Cost-Savings Programs
+If you live in New York, the Medicare Rights Center can help you enroll in various Medicare cost-savings programs. Please answer a few questions to see if we can connect you with a trained benefits enrollment counselor.
+Do you live in New York?
+Great! Let's get the basics.
+If your monthly income is below $2355 (or below $3189 if married) you may qualify for several Medicare cost-savings benefit programs. The following information will help us determine which programs you might be eligible for.
+What is your marital status?
+*
+What is your average monthly income? *Please include the combined monthly household income of you and your spouse Income examples
+Common sources of countable income include; gross Social Security benefits, pension, VA benefits, employment income, IRA distributions, etc.
+In addition to Medicare, do you have Medicaid? (Optional)
+Please provide your contact information so a trained benefits enrollment counselor can be in touch to discuss your eligibility and assist you with the application process
+First Name*
+Last Name*
+Email Address*I would like to receive emails from the Medicare Rights Center.
+Phone Number*
+Zip*Error
+City*
+Anti-spam
+Contact your local State Health Insurance Assistance Program
+Each state offers a SHIP, partly funded by the federal government, to give you free counseling and assistance. A SHIP counselor may be available by phone or in person.
+Contact your local State Health Insurance Assistance Program
+Based on the information you provided, you do not appear to be eligible for Medicare cost-saving programs.
+Each state offers a State Health Insurance Assistance Program (SHIP), partly funded by the federal government, to give you free counseling and assistance. A SHIP counselor may be available by phone or in person.
+Gives you a Special Enrollment Period (SEP) once per calendar quarter during the first nine months of the year to enroll in a Part D plan or to switch between plans (You cannot use the Extra Help SEP during the fourth calendar quarter of the year (October through December). You should use Fall Open Enrollment during this time to make prescription drug coverage changes.)
+Depending on your income and assets, you may qualify for Extra Help. To receive such assistance, your prescriptions should be on your plan’s formulary and you should use pharmacies in your plan’s network.
+Remember that Extra Help is not a replacement for Part D or a plan on its own: You must still have a Part D plan to receive Medicare prescription drug coverage and Extra Help assistance. If you do not choose a plan, you will in most cases be automatically enrolled in one.
+Making an Extra Help decision when you have other forms of prescription drug coverage
+If you are eligible for Extra Help and already have other creditable drug coverage, you should evaluate your costs and coverage when deciding whether to enroll in Part D and Extra Help or to keep your current drug coverage. Be sure to ask your former employer or union if you can get a Part D plan without losing the retiree benefits you want to keep, and check if disenrolling from retiree drug coverage makes you ineligible for other retiree health benefits. If you cannot have Part D and your retiree benefits, or if keeping both is not cost-effective, think carefully about whether you should get a Part D plan, especially if your retiree plan also covers your spouse or dependents. If you later want Part D, you will have a two-month SEP after you lose creditable coverage.
+Finally, those with Medicaid and certain kinds of employer, union, or retiree drug coverage may in some cases not be enrolled in Extra Help or can ask not to be. Contact your local Medicaid office to learn how to decline Part D without losing your Medicaid coverage. If you later want Part D, you can enroll at any time without penalty if you are still enrolled in Medicaid or eligible for Extra Help.
+Did you find this content helpful? (Make a selection to complete a short survey)
+
+Response: LIS stands for Longest Increasing Subsequence. It is a concept in computer science and mathematics that involves finding the longest subsequence of a given sequence of numbers that is in increasing order. The Longest Increasing Subsequence problem is a classic algorithmic problem that has applications in various fields, including dynamic programming, computational biology, and more.
+
+In the context of the LIS problem, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements. The LIS problem aims to find the longest subsequence of a given sequence where the elements are sorted in increasing order.
+
+There are different approaches to solving the Longest Increasing Subsequence problem, such as the simple recursive approach, dynamic programming, and the greedy approach with binary search. These methods vary in efficiency and complexity, with dynamic programming often being a popular choice due to its effectiveness in solving the LIS problem efficiently.
+
+Overall, LIS is an important problem in algorithm design and computational complexity analysis, and it has practical applications in various domains where sequences need to be analyzed and optimized based on the longest increasing subsequence pattern.
+
+Sources:
+- [InterviewBit - Longest Increasing Subsequence](https://www.interviewbit.com/blog/longest-increasing-subsequence/)
+- [GeeksforGeeks - Longest Increasing Subsequence DP](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/)
+
+Position Score: 0.0
+Similarity Score: 0.8244332663282843
+Website Score: 0
+Sentiment Score: 0
+SEO Score: 0.5
+Final Score: 0.26488665326565686

@@ -1,0 +1,41 @@
+Use Case: Donut Hole
+Query: What is the coverage gap?
+URL: https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole
+
+Text: The MedicarePart Ddonut hole or coverage gap is the phase of Part D coverage after your initial coverage period. You enter the donut hole when your total drug costs—including what you and your plan have paid for your drugs—reaches a certain limit. In 2024, that limit is $5,030. While in the coverage gap, you are responsible for a percentage of the cost of your drugs.
+How does the donut hole work?
+The donut hole closed for all drugs in 2020, meaning that when you enter the coverage gap you will be responsible for 25% of the cost of your drugs. In the past, you were responsible for a higher percentage of the cost of your drugs.
+Although the donut hole has closed, you may still see a difference in cost between the initial coverage period and the donut hole. For example, if a drug’s total cost is $100 and you pay your plan’s $20 copay during the initial coverage period, you will be responsible for paying $25 (25% of $100) during the coverage gap.
+How do I get out of the donut hole?
+In all Part D plans, you enter catastrophic coverage after you reach $8,000 in out-of-pocket costs for covered drugs. This amount is made up of what you pay for covered drugs and some costs that others pay (see below). During this period, you owe no cost-sharing for the cost of your covered drugs for the remainder of the year. The out-of-pocket costs that help you reach catastrophic coverage include:
+Your deductible
+What you paid during the initial coverage period
+Almost the full cost of brand-name drugs (including the manufacturer’s discount) purchased during the coverage gap
+Amounts paid by others, including family members, most charities, and other persons on your behalf
+Costs that do not help you reach catastrophic coverage include monthly premiums, what your plan pays toward drug costs, the cost of non-covered drugs, the cost of covered drugs from pharmacies outside your plan’s network, and the 75% generic discount.
+Your Part D plan should keep track of how much money you have spent out of pocket for covered drugs and your progression through coverage periods—and this information should appear in your monthly statements.
+Note: If you have Extra Help, you do not have a coverage gap. You will pay different drug costs during the year. Your drug costs may also be different if you are enrolled in an SPAP.
+
+Response: The "coverage gap," also known as the Medicare Part D coverage gap or the "donut hole," is a phase in Medicare Part D prescription drug coverage where there is a temporary limit on what the drug plan will cover. The coverage gap occurs after your initial coverage period ends and before catastrophic coverage begins. Here are the key points about the coverage gap:
+
+1. **Entering the Coverage Gap**: You enter the coverage gap when your total drug costs, including what you and your plan have paid for your drugs, reach a certain limit. In 2024, this limit is $5,030.
+
+2. **Cost Sharing**: While in the coverage gap, you are responsible for a percentage of the cost of your drugs. In 2024, you will pay 25% of the cost of covered brand-name and generic drugs.
+
+3. **Changes in Cost Responsibility**: The coverage gap closed for all drugs in 2020, meaning that individuals are responsible for a fixed percentage of the drug cost (25% in 2024), which is lower than the previous percentages patients had to pay.
+
+4. **Example**: If a drug's total cost is $100 and you paid a $20 copay during the initial coverage period, you would be responsible for paying $25 (25% of $100) while in the coverage gap.
+
+5. **Exiting the Coverage Gap**: To get out of the coverage gap, you need to reach the catastrophic coverage phase, where you will pay a smaller coinsurance amount or copayment for the remainder of the year.
+
+Understanding the coverage gap is important for Medicare Part D beneficiaries as it can impact out-of-pocket costs for prescription drugs. By knowing how the coverage gap works, individuals can navigate their drug coverage more effectively and plan for potential changes in cost-sharing during this phase of their coverage.
+
+Sources:
+- [Medicare Interactive - The Part D Donut Hole](https://www.medicareinteractive.org/get-answers/medicare-prescription-drug-coverage-part-d/medicare-part-d-costs/the-part-d-donut-hole)
+
+Position Score: 0.125
+Similarity Score: 0.8610441691724945
+Website Score: 1
+Sentiment Score: 0.0
+SEO Score: 0.5
+Final Score: 0.4972088338344989

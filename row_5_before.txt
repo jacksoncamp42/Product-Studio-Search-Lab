@@ -1,0 +1,75 @@
+Use Case: Extra Help Basics
+Query: What do I do if I can't afford my drugs?
+URL: https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/overview-of-cost-saving-programs/options-for-those-who-are-having-trouble-affording-drug-costs
+
+Text: Get Help Applying for Medicare Cost-Savings Programs
+If you live in New York, the Medicare Rights Center can help you enroll in various Medicare cost-savings programs. Please answer a few questions to see if we can connect you with a trained benefits enrollment counselor.
+Do you live in New York?
+Great! Let's get the basics.
+If your monthly income is below $2355 (or below $3189 if married) you may qualify for several Medicare cost-savings benefit programs. The following information will help us determine which programs you might be eligible for.
+What is your marital status?
+*
+What is your average monthly income? *Please include the combined monthly household income of you and your spouse Income examples
+Common sources of countable income include; gross Social Security benefits, pension, VA benefits, employment income, IRA distributions, etc.
+In addition to Medicare, do you have Medicaid? (Optional)
+Please provide your contact information so a trained benefits enrollment counselor can be in touch to discuss your eligibility and assist you with the application process
+First Name*
+Last Name*
+Email Address*I would like to receive emails from the Medicare Rights Center.
+Phone Number*
+Zip*Error
+City*
+Anti-spam
+Contact your local State Health Insurance Assistance Program
+Each state offers a SHIP, partly funded by the federal government, to give you free counseling and assistance. A SHIP counselor may be available by phone or in person.
+Contact your local State Health Insurance Assistance Program
+Based on the information you provided, you do not appear to be eligible for Medicare cost-saving programs.
+Each state offers a State Health Insurance Assistance Program (SHIP), partly funded by the federal government, to give you free counseling and assistance. A SHIP counselor may be available by phone or in person.
+About generics: Generic drugs are often less expensive than brand-name drugs, and might be more affordable for you. Check with your doctor to see if a generic drug will work for you.
+For samples of your medication: This is a temporary solution, as your doctor may not be able to provide samples for very long. If you are using samples, be sure to explore other options for getting your drugs covered.
+Ask your plan:
+About mail-order prescriptions: If you have Extra Help and your drug plan has a mail-order option, you may be able to get a 90-day supply of your prescription at a lower cost. Keep in mind that with mail order, it may take longer to get your drugs than if you were to go to the pharmacy yourself. Plan ahead when filling your prescriptions by mail.
+For a tiering exception: If your Part D plan is covering your drug and your copayment is expensive, it could be that the medication is on a high tier. A tiering exception request is a way to request lower cost-sharing.
+Ask your pharmacy or hospital:
+To waive your copay: Pharmacies are not allowed to routinely waive their copays for people without Extra Help, but your pharmacist can waive copays on a case-by-case basis. Tell your pharmacist you cannot afford the copay, and request that it be waived. If you are looking for a pharmacy that may waive your copay, make sure it is in your plan’s network. (Also be sure to ask your plan if the amount the pharmacist waives counts toward your out-of-pocket limit.) Some pharmacies routinely waive copays for people with Extra Help. Ask your pharmacist if your pharmacy does this.
+About charity care: Hospitals may have a charity care policy that can reduce your drug copays if you cannot afford them. Under such a policy, your final copay is determined by your income (using a sliding scale). To qualify, your prescription must be written by a doctor in the hospital and filled out at the hospital’s pharmacy. Tell the hospital’s pharmacist that you cannot afford the copay, and ask if you qualify for prescription assistance. (Make sure to confirm that the hospital’s pharmacy is in-network.)
+There may be other options to lower costs at the pharmacy.
+For a promotional pharmacy price: Check if a pharmacy in your plan’s network has a special promotion (limited time offer) to sell a medication that is on your plan’s formulary at a lower price. You will need to tell the pharmacist to refill your medication without using your Medicare drug coverage. It is best to take advantage of such specials only during your deductible or coverage gap because it is only during these times that what you pay will count toward reaching your plan’s catastrophic coverage limit.
+You will need to submit your receipts to your plan with any other required documentation in order for this amount to count toward reaching the catastrophic coverage limit. Contact your plan to find out more information.
+About pharmacy discount generic programs: Some retail pharmacies offer year-round discounts on generics. Check with in-network pharmacies to see if they sell any of your prescribed generics at a lower price. If you normally pay a coinsurance, you will pay it based on the lower store price.
+
+Response: If you are unable to afford your prescription drugs, there are several resources and steps you can take to help make medications more affordable:
+
+1. **Discuss with Your Healthcare Provider**: Inform your healthcare provider about your financial concerns. They may be able to suggest lower-cost alternatives or generic medications that are equally effective.
+
+2. **Explore Prescription Assistance Programs**: Many pharmaceutical companies offer patient assistance programs that provide free or discounted medications to individuals who meet specific criteria. You can inquire with your healthcare provider or directly contact the drug manufacturer for more information.
+
+3. **Check for Drug Discount Cards**: Drug discount cards or coupons can help reduce the cost of medications. These cards are often available online or through pharmacies and can provide significant savings on prescription drugs.
+
+4. **Look into Government Programs**: Government programs like Medicaid, Medicare savings programs, or State Pharmaceutical Assistance Programs (SPAPs) may help eligible individuals access prescription drugs at reduced costs. You can check your eligibility and apply through these programs.
+
+5. **Consider Generic Drugs**: Generic medications are typically more affordable than brand-name drugs and often have the same active ingredients. Ask your healthcare provider if there is a generic alternative available for your prescribed medication.
+
+6. **Compare Prices**: Different pharmacies may offer varying prices for the same medication. Compare prices at different pharmacies or consider online pharmacies to find the best deals on your prescriptions.
+
+7. **Discuss Options with Your Pharmacist**: Pharmacists can provide valuable information on cost-saving strategies, such as splitting pills, identifying cheaper alternatives, or recommending medication assistance programs.
+
+8. **Seek Financial Assistance Programs**: Some nonprofit organizations, local health departments, or charitable foundations may offer financial assistance programs for prescription drug costs. Research and inquire about available resources in your area.
+
+9. **Consult with Social Workers or Patient Advocates**: Social workers or patient advocates at healthcare facilities can assist in navigating financial resources, prescription assistance programs, and other support services to help you afford your medications.
+
+By exploring these options and seeking assistance from healthcare providers and relevant programs, you can work towards making your prescription drugs more affordable and accessible.
+
+Sources:
+- [AAFP - How to Help Your Low-Income Patients Get Prescription Drugs](https://www.aafp.org/pubs/fpm/issues/2002/1100/p51.html)
+- [FamilyDoctor.org - Resources for Affordable Prescription Medicine](https://familydoctor.org/resources-for-affordable-prescription-medicine/)
+- [Medicare Interactive - Get Help Applying for Medicare Cost-Savings Programs](https://www.medicareinteractive.org/get-answers/cost-saving-programs-for-people-with-medicare/overview-of-cost-saving-programs/options-for-those-who-are-having-trouble-affording-drug-costs)
+- [LA County Department of Public Health - Tips for Finding Affordable Medicine](http://publichealth.lacounty.gov/hccp/affordmeds.htm)
+- [UnityPoint Health - 6 Ways to Reduce Prescription Drug Costs](https://www.unitypoint.org/news-and-articles/6-ways-to-reduce-prescription-drug-costs)
+
+Position Score: 0.08333333333333333
+Similarity Score: 0.8688079933779824
+Website Score: 1
+Sentiment Score: 0.091
+SEO Score: 0.5
+Final Score: 0.5086282653422632

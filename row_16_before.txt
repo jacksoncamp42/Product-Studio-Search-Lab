@@ -1,0 +1,28 @@
+Use Case: Weill Cornell
+Query: What is Weill Cornell Medicine?
+URL: https://weill.cornell.edu/
+
+Text: Weill Cornell Medicine is committed to excellence in patient care, scientific discovery and the education of future physicians in New York City and around the world. Since 1898, our doctors and scientists have been engaged in world-class clinical care and cutting-edge research that connect patients to the latest treatment innovations and prevention strategies. Weill Cornell Medicine's powerful network of collaborators extends to its parent university Cornell University; to Qatar, where Weill Cornell Medicine-Qatar offers a Cornell University medical degree; and to programs in Tanzania, Haiti, Brazil, Austria and Turkey. Weill Cornell Medicine faculty provide exemplary patient care at NewYork-Presbyterian/Weill Cornell Medical Center, NewYork-Presbyterian Westchester Behavioral Health Center, NewYork-Presbyterian Lower Manhattan Hospital, NewYork-Presbyterian Queens and NewYork-Presbyterian Brooklyn Methodist Hospital. Weill Cornell Medicine is also affiliated with Houston Methodist.
+Increasing the levels of chemicals naturally produced in the body called endocannabinoids may thwart the highly addictive nature of opioids such as morphine and oxycodone while maintaining the drugs...
+Dr. Ria Goswami, assistant professor of virology in pediatrics, received the Gilead Research Scholars Awardfrom theGilead Sciences Research Scholars Program. The prize will support Dr. Goswami’s research,which examines the role and mechanisms of infant gut microbiome on the risk of oral HIV acquisition.
+Professor of Medical Ethics in Medicine, of Population Health Sciences, and of Medical Ethics in Reproductive Medicine
+Dr. Inmaculada de Melo-Martin, professor of medical ethics in medicine, of population health sciences, and of medical ethics in reproductive medicine, has been named a fellow of the European Academy of Sciences. The academy isan independent international association of distinguished scholars that aims to recognize and elect to its membership leading European scientists.
+Dr. Darshana Dadhania, associate professor of medicine and of medicine in surgery, received the American Society of Transplantation’s Clinical Science Investigator AwardJune 5 at the American Transplant Congress.The Clinical Science Investigator Award recognizes mid-career investigators who have made substantial contributions to the field of transplantation medicine.
+Thanksgiving has always been one of my family’s favorite holidays. That’s not only because we share food with family and friends, but because the kindness we demonstrate and gratitude we express make our lives better. As we enter this celebratory week, I want to take a moment to share what I’m grateful for.
+
+Response: Weill Cornell Medicine is a renowned academic medical center located in New York City. It is affiliated with NewYork-Presbyterian Hospital, one of the top hospitals in the United States. Weill Cornell Medicine is part of Cornell University and offers a wide range of healthcare services, medical education programs, and cutting-edge research initiatives.
+
+The institution is known for its dedication to patient care, medical education, and scientific research. Weill Cornell Medicine houses various specialized centers and departments focusing on different medical specialties, including dermatology, reproductive medicine, ophthalmology, and more. The medical center is committed to providing high-quality care to patients, training the next generation of healthcare professionals, and advancing medical knowledge through research and innovation.
+
+Weill Cornell Medicine has a rich history of excellence in healthcare and has established itself as a leading institution in the medical field. Patients seeking top-tier medical care, medical students pursuing quality education, and researchers exploring innovative medical advancements often turn to Weill Cornell Medicine for its expertise and commitment to advancing healthcare.
+
+Sources:
+- [Weill Cornell Medicine - Official Website](https://weill.cornell.edu/)
+- [Weill Cornell Medicine - History](https://weill.cornell.edu/our-story/history)
+
+Position Score: 0.25
+Similarity Score: 0.917712274864557
+Website Score: 1
+Sentiment Score: 0.159
+SEO Score: 0.5
+Final Score: 0.5653424549729114
