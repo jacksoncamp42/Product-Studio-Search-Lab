@@ -41,23 +41,21 @@ def get_citation_prompt() -> str:
 
     """
 
-def evaluate(query, url, response):
-    # Ranking score
-    def evaluate_position(response, url):
-        def normalize_url(url):
-            parsed_url = urlparse(url)
-            normalized_path = unquote(parsed_url.path)
-            normalized_query = unquote(parsed_url.query)
-            return urlunparse(
-                (
-                    parsed_url.scheme,
-                    parsed_url.netloc,
-                    normalized_path,
-                    parsed_url.params,
-                    normalized_query,
-                    parsed_url.fragment,
-                )
+def evaluate_position(response, url):
+    def normalize_url(url):
+        parsed_url = urlparse(url)
+        normalized_path = unquote(parsed_url.path)
+        normalized_query = unquote(parsed_url.query)
+        return urlunparse(
+            (
+                parsed_url.scheme,
+                parsed_url.netloc,
+                normalized_path,
+                parsed_url.params,
+                normalized_query,
+                parsed_url.fragment,
             )
+        )
 
     normalized_target = normalize_url(url)
     results = [r for r in response.split("\n\n") if r.strip()]
@@ -66,13 +64,13 @@ def evaluate(query, url, response):
         result_urls = re.findall(r"(https?://[^\s\)]+)", result)
         normalized_result_urls = [normalize_url(u) for u in result_urls]
 
-            if normalized_target in normalized_result_urls:
-                position_score = 1.0 if i == 1 else 1.0 / i
-                return position_score
-                
-        return 0.0
+        if normalized_target in normalized_result_urls:
+            position_score = 1.0 if i == 1 else 1.0 / i
+            return position_score
 
-# Similarity Score
+    return 0.0
+
+
 def evaluate_similarity(query, response):
     def cosine_similarity(vec1, vec2):
         vec1 = np.array(vec1)
@@ -84,7 +82,7 @@ def evaluate_similarity(query, response):
     similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
     return similarity_score
 
-# Website Score
+
 def evaluate_website(url, response):
     def extract_urls(response):
         return re.findall(r"(https?://[^\s\)]+)", response)
@@ -116,25 +114,20 @@ def evaluate_website(url, response):
     urls = extract_urls(response)
     return 1 if in_urls(url, urls) else 0
 
-# Sentiment Score
+
 def evaluate_sentiment(url, response):
     def analyze_sentiment(text):
         sentiment = SentimentIntensityAnalyzer()
         return sentiment.polarity_scores(text)["pos"]
 
-    # only get relevent parts of text
     def get_relevant_text(text, url):
-        # Parse the URL to get domain
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
-        org_name = domain.split(".")[-2]  # Get organization name from domain
+        org_name = domain.split(".")[-2]
 
-        # Split text into paragraphs
         paragraphs = text.split("\n\n")
-
         relevant_paragraphs = []
         for paragraph in paragraphs:
-            # Check if paragraph contains URL or organization name
             if (
                 url in paragraph
                 or domain in paragraph
@@ -145,13 +138,16 @@ def evaluate_sentiment(url, response):
         return " ".join(relevant_paragraphs) if relevant_paragraphs else text
 
     relevant_text = get_relevant_text(response, url)
-    
-    sentiment_score = analyze_sentiment(relevant_text) if website_score else 0
+    sentiment_score = analyze_sentiment(relevant_text)
+    return sentiment_score
 
-    # SEO Score
+def evaluate(query, url, response):
+    position_score = evaluate_position(response, url)
+    similarity_score = evaluate_similarity(query, response)
+    website_score = evaluate_website(url, response)
+    sentiment_score = evaluate_sentiment(url, response)
     seo_score = get_seo_score(response)
 
-    # average
     final_score = (
         seo_score + position_score + similarity_score + website_score + sentiment_score
     ) / 5
@@ -165,7 +161,6 @@ def evaluate_sentiment(url, response):
         final_score,
     )
 
-
 def main(input_csv, output_csv, start_row, end_row, print_flag):
     # Load the CSV file
     df = pd.read_csv(input_csv)
@@ -177,15 +172,14 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
         df = df.iloc[start_row:]
 
     # Prepare SearchSimulator
-    # search_simulator = SearchSimulator(llm_generation_instructions=get_citation_prompt())
-    search_simulator = SearchSimulator()  # trying without citation prompt
+    search_simulator = SearchSimulator(llm_generation_instructions=get_citation_prompt())
 
     results = []
 
     for row_i, row in df.iterrows():
         try:
             start_time = time.time()
-            print(f"Processing row {row_i}/{len(df)}")
+            print(f"Processing row {row_i}")
 
             query = row["Query"]
             url = row["URL"]
@@ -272,13 +266,13 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
 
             # Save responses to files
             if args.func_name == "fluent_optimization_gpt":
-                folder_name = "data_fluency"
+                folder_name = "content_optimization_fluent_results"
             elif args.func_name == "authoritative_optimization_mine":
-                folder_name = "data_authoritative"
+                folder_name = "content_optimization_authoritative_results"
             elif args.func_name == "prompt_injection":
-                folder_name = "data_prompt"
+                folder_name = "prompt_injection_results"
             else:
-                folder_name = "data_baseline"
+                folder_name = "baseline_results"
             os.makedirs(folder_name, exist_ok=True)
 
             # Write scores before optimization
