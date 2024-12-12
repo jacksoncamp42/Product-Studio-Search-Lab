@@ -41,7 +41,6 @@ def get_citation_prompt() -> str:
 
     """
 
-
 def evaluate(query, url, response):
     # Ranking score
     def evaluate_position(response, url):
@@ -60,22 +59,21 @@ def evaluate(query, url, response):
                 )
             )
 
-        normalized_target = normalize_url(url)
-        results = [r for r in response.split("\n\n") if r.strip()]
+    normalized_target = normalize_url(url)
+    results = [r for r in response.split("\n\n") if r.strip()]
 
-        for i, result in enumerate(results, 1):
-            result_urls = re.findall(r"(https?://[^\s\)]+)", result)
-            normalized_result_urls = [normalize_url(u) for u in result_urls]
+    for i, result in enumerate(results, 1):
+        result_urls = re.findall(r"(https?://[^\s\)]+)", result)
+        normalized_result_urls = [normalize_url(u) for u in result_urls]
 
             if normalized_target in normalized_result_urls:
                 position_score = 1.0 if i == 1 else 1.0 / i
                 return position_score
-
+                
         return 0.0
 
-    position_score = evaluate_position(response, url)
-
-    # Similarity Score
+# Similarity Score
+def evaluate_similarity(query, response):
     def cosine_similarity(vec1, vec2):
         vec1 = np.array(vec1)
         vec2 = np.array(vec2)
@@ -84,8 +82,10 @@ def evaluate(query, url, response):
     searchSimulator = SearchSimulator()
     rag = searchSimulator.rag_system
     similarity_score = cosine_similarity(rag.embed(query), rag.embed(response))
+    return similarity_score
 
-    # Website Score
+# Website Score
+def evaluate_website(url, response):
     def extract_urls(response):
         return re.findall(r"(https?://[^\s\)]+)", response)
 
@@ -114,9 +114,10 @@ def evaluate(query, url, response):
         return False
 
     urls = extract_urls(response)
-    website_score = 1 if in_urls(url, urls) else 0
+    return 1 if in_urls(url, urls) else 0
 
-    # Sentiment Score
+# Sentiment Score
+def evaluate_sentiment(url, response):
     def analyze_sentiment(text):
         sentiment = SentimentIntensityAnalyzer()
         return sentiment.polarity_scores(text)["pos"]
@@ -144,7 +145,7 @@ def evaluate(query, url, response):
         return " ".join(relevant_paragraphs) if relevant_paragraphs else text
 
     relevant_text = get_relevant_text(response, url)
-
+    
     sentiment_score = analyze_sentiment(relevant_text) if website_score else 0
 
     # SEO Score
@@ -287,6 +288,7 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
                 f.write(f"Use Case: {row['Use Case']}\n")
                 f.write(f"Query: {query}\n")
                 f.write(f"URL: {url}\n\n")
+                f.write(f"Text: {text}\n\n")
                 f.write(f"Response: {response}\n\n")
                 f.write(f"Position Score: {position_score}\n")
                 f.write(f"Similarity Score: {similarity_score}\n")
@@ -303,6 +305,7 @@ def main(input_csv, output_csv, start_row, end_row, print_flag):
                     f.write(f"Use Case: {row['Use Case']}\n")
                     f.write(f"Query: {query}\n")
                     f.write(f"URL: {url}\n\n")
+                    f.write(f"Text: {optimized_text}\n\n")
                     f.write(f"Response_After: {response_after}\n\n")
                     f.write(f"Position Score_After: {position_score_after}\n")
                     f.write(f"Similarity Score_After: {similarity_score_after}\n")
