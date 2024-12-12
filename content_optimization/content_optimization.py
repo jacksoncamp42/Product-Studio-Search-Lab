@@ -13,27 +13,16 @@ import requests
 import justext # Credit to: https://github.com/AlexWan0/rag-convincingness/blob/main/data/text_processing.py
 from dotenv import load_dotenv, find_dotenv
 import os
+from search_simulator.web_scraper import WebScraper
 
 
 load_dotenv(find_dotenv())
 def url_to_text(url: str) -> str:
     # get html
-    response = requests.get(url)
-    html = response.text
-
-    # get text from html
-    try:
-        paragraphs = justext.justext(html, justext.get_stoplist("English"))
-    except Exception as e:
-        print(e)
-        return None
-
-    paragraphs_clean = []
-    for paragraph in paragraphs:
-        if not paragraph.is_boilerplate:
-            paragraphs_clean.append(paragraph.text)
-
-    return '\n'.join(paragraphs_clean)
+    scraper = WebScraper()
+    res = scraper.fetch_content(url)
+    scraper.close()
+    return res["content"]
 
 # TODO: re-insert plain text into HTML
 def insert_text_into_html(html: str, text: str) -> str:

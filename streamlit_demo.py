@@ -97,7 +97,6 @@ def evaluate(query, url, response):
 def run_initial_evaluation(query, url):
     text = url_to_text(url)
     search_simulator = SearchSimulator()
-
     _, _, response = search_simulator.generate_search_result(query, url, text)
     position_score, similarity_score, website_score, sentiment_score = evaluate(query, url, response)
     seo_score = get_seo_score(text)

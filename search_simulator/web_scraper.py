@@ -48,6 +48,7 @@ class WebScraper:
                   - 'content' (str): The cleaned textual content of the webpage.
                   - 'url' (str): The URL of the scraped webpage.
             None: Returns None if an error occurs during the scraping process.
+
         """
         # First attempt: Use requests + BeautifulSoup
         try:
