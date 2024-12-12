@@ -6,7 +6,7 @@
 # from dotenv import load_dotenv, find_dotenv
 # from web_scraper import WebScraper
 # import os
-# import tqdm
+import tqdm
 
 
 # One of the two versions should work for you. If needed just swap around.
@@ -24,7 +24,7 @@ load_dotenv(find_dotenv())
 class SearchSimulator: 
     """_summary_
     """
-    def __init__(self, llm_query_instructions=None, llm_generation_instructions=None):
+    def __init__(self, num_websites=5, llm_query_instructions=None, llm_generation_instructions=None):
         self.OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
         self.GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
         self.GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID")
@@ -35,6 +35,7 @@ class SearchSimulator:
         self.web_scraper = WebScraper()
         self.llm_query_instructions = llm_query_instructions
         self.llm_generation_instructions = llm_generation_instructions
+        self.top_k = num_websites
 
     def shutdown(self):
         self.web_scraper.close()
@@ -86,7 +87,7 @@ class SearchSimulator:
         
         self.rag_system.add_documents(all_contents)
 
-        relevant_documents, scores = self.rag_system.retrieve_relevant_documents(user_query)
+        relevant_documents, scores = self.rag_system.retrieve_relevant_documents(user_query, top_k=self.top_k)
 
         # print(len(relevant_documents))
         
