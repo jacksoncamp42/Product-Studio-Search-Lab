@@ -1,3 +1,7 @@
+# Write-Up
+
+Please see 'How Might We Rethink SEO in the Context of LLM Driven Search?.pdf'.
+
 # Product-Studio-Search-Lab
 
 Install requirements.txts:
